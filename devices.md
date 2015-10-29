@@ -8,4 +8,4 @@
 
 #Other Devices
 * 12MHz Oscillator
-* USB Type-C Connector
+* JAE Electronics DX07B024JJ1R1500 USB Type-C Connector
