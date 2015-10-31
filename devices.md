@@ -3,7 +3,7 @@
 * Atmel ATSAM3S2CA-AU
 * Microchip 93LC56-SO8 Serial EEPROM
 * FTDI FT2232H USB 2.0 Device
-* Micron N23Q032A13ESE40F Serial NOR Flash Memory
+* Micron N25Q032A13ESC40F Serial NOR Flash Memory
 * Linear Technology LT3030EFE#TRPBF Linear Voltage Regulator
 
 #Other Devices
