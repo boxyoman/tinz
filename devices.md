@@ -1,7 +1,7 @@
 #Main Devices
 * Lattice iCE40HX1k-TQ144 FPGA
 * Atmel ATSAM3S2CA-AU
-* Microchip 93LC56-SO8 Serial EEPROM
+* Microchip 93LC56C-I/SN Serial EEPROM
 * FTDI FT2232H USB 2.0 Device
 * Micron N23Q032A13ESC40F Serial NOR Flash Memory
 * Linear Technology LT3030EFE#TRPBF Linear Voltage Regulator
