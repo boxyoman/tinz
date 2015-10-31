@@ -1,6 +1,6 @@
 #Main Devices
 * Lattice iCE40HX1k-TQ144 FPGA
-* Atmel ATSAM3S Something MCU
+* Atmel ATSAM3S2CA-AU
 * Microchip 93LC56-SO8 Serial EEPROM
 * FTDI FT2232H USB 2.0 Device
 * Micron N23Q032A13ESC40F Serial NOR Flash Memory
