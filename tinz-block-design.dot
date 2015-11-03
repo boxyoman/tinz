@@ -3,7 +3,6 @@
    dot -T png -O tinz-block-design.dot */
 
 strict digraph G {
-	size="20,10"
 	USB [shape=box]
 	// Regulator [shape=box,label="Voltage Regulator"]
 	USB_Controller [shape=box,label="FTDI USB Controller"]
@@ -17,7 +16,7 @@ strict digraph G {
 	LEDs [shape=box]
 	Analog [shape=box]
 	// USB -> Regulator [label="5V", arrowhead=none]
-	USB -> USB_Controller [label="Data", dir=both]
+	USB -> USB_Controller [dir=both]
 	// Regulator -> EEPROM [label="3.3V", arrowhead=none]
 	// Regulator -> USB_Controller [label="3.3V", arrowhead=none]
 	// Regulator -> Oscillator [label="3.3V", arrowhead=none]
