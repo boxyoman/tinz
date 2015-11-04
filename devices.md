@@ -8,4 +8,4 @@
 
 #Other Devices
 * 12MHz Oscillator
-* JAE Electronics DX07B024JJ1R1500 USB Type-C Connector
+* Mill-Max Manufacturing Corp. 898-43-024-90-310000
