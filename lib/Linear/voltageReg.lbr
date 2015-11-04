@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
@@ -111,35 +111,38 @@ MAX3223-MAX3243.pdf</description>
 <rectangle x1="-1.7266" y1="2.2828" x2="-1.5234" y2="3.121" layer="51"/>
 <rectangle x1="-2.3766" y1="2.2828" x2="-2.1734" y2="3.121" layer="51"/>
 <rectangle x1="-3.0266" y1="2.2828" x2="-2.8234" y2="3.121" layer="51"/>
-<smd name="P$1" x="0" y="0" dx="3.86" dy="2.74" layer="1"/>
+<smd name="21" x="0" y="0" dx="3.86" dy="2.74" layer="1"/>
 </package>
 </packages>
 <symbols>
 <symbol name="LT3030EFE">
-<pin name="IN1_A" x="-17" y="13" length="middle"/>
-<pin name="IN2_A" x="-17" y="11" length="middle"/>
-<pin name="!SHDN1!" x="-17" y="0" length="middle"/>
-<pin name="!SHDN2!" x="-17" y="-2" length="middle"/>
-<pin name="PWRGD1" x="-17" y="-5" length="middle"/>
-<pin name="PWRGD2" x="-17" y="-7" length="middle"/>
-<pin name="GND" x="-3" y="-22" length="middle" rot="R90"/>
-<pin name="OUT1_A" x="17" y="15" length="middle" rot="R180"/>
-<pin name="BYP1" x="17" y="10" length="middle" rot="R180"/>
-<pin name="OUT2_B" x="17" y="-2" length="middle" rot="R180"/>
-<pin name="ADJ1" x="17" y="8" length="middle" rot="R180"/>
-<pin name="BYP2" x="17" y="-5" length="middle" rot="R180"/>
-<pin name="ADJ2" x="17" y="-7" length="middle" rot="R180"/>
-<pin name="GND1" x="-1" y="-22" length="middle" rot="R90"/>
-<pin name="IN1_B" x="-17" y="15" length="middle"/>
-<pin name="IN2_B" x="-17" y="9" length="middle"/>
-<pin name="OUT1_B" x="17" y="13" length="middle" rot="R180"/>
-<pin name="OUT2_A" x="17" y="0" length="middle" rot="R180"/>
-<pin name="GND2" x="1" y="-22" length="middle" rot="R90"/>
-<pin name="GND3" x="3" y="-22" length="middle" rot="R90"/>
-<wire x1="-12" y1="17" x2="-12" y2="-17" width="0.254" layer="94"/>
-<wire x1="-12" y1="-17" x2="12" y2="-17" width="0.254" layer="94"/>
-<wire x1="12" y1="-17" x2="12" y2="17" width="0.254" layer="94"/>
-<wire x1="12" y1="17" x2="-12" y2="17" width="0.254" layer="94"/>
+<pin name="IN1_A" x="-17.78" y="15.24" length="middle"/>
+<pin name="IN2_A" x="-17.78" y="12.7" length="middle"/>
+<pin name="!SHDN1!" x="-17.78" y="5.08" length="middle"/>
+<pin name="!SHDN2!" x="-17.78" y="2.54" length="middle"/>
+<pin name="PWRGD1" x="-17.78" y="0" length="middle"/>
+<pin name="PWRGD2" x="-17.78" y="-2.54" length="middle"/>
+<pin name="GND" x="-5.08" y="-22.86" length="middle" rot="R90"/>
+<pin name="OUT1_A" x="17.78" y="17.78" length="middle" rot="R180"/>
+<pin name="BYP1" x="17.78" y="12.7" length="middle" rot="R180"/>
+<pin name="OUT2_B" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="ADJ1" x="17.78" y="10.16" length="middle" rot="R180"/>
+<pin name="BYP2" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="ADJ2" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND1" x="-2.54" y="-22.86" length="middle" rot="R90"/>
+<pin name="IN1_B" x="-17.78" y="17.78" length="middle"/>
+<pin name="IN2_B" x="-17.78" y="10.16" length="middle"/>
+<pin name="OUT1_B" x="17.78" y="15.24" length="middle" rot="R180"/>
+<pin name="OUT2_A" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="GND2" x="0" y="-22.86" length="middle" rot="R90"/>
+<pin name="GND3" x="2.54" y="-22.86" length="middle" rot="R90"/>
+<wire x1="-12.7" y1="20.32" x2="-12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-17.78" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-17.78" x2="12.7" y2="20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="20.32" x2="-12.7" y2="20.32" width="0.254" layer="94"/>
+<pin name="THERMPAD" x="-17.78" y="-7.62" length="middle"/>
+<text x="5.08" y="-20.32" size="1.778" layer="94">&gt;Name</text>
+<text x="-12.7" y="20.32" size="1.778" layer="94">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -170,6 +173,7 @@ MAX3223-MAX3243.pdf</description>
 <connect gate="G$1" pin="OUT2_B" pad="8"/>
 <connect gate="G$1" pin="PWRGD1" pad="19"/>
 <connect gate="G$1" pin="PWRGD2" pad="12"/>
+<connect gate="G$1" pin="THERMPAD" pad="21"/>
 </connects>
 <technologies>
 <technology name=""/>
