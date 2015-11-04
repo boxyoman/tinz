@@ -9,3 +9,7 @@
 #Other Devices
 * 12MHz Oscillator
 * JAE Electronics DX07B024JJ1R1500 USB Type-C Connector
+
+#Descrete Components
+* M1206 MELF 0.25W (voltage regulator resistors)
+* CL21F106ZPFNNNE C0805 (voltage regulator caps)
