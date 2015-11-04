@@ -8,12 +8,10 @@
 
 #Other Devices
 * 12MHz Oscillator
-<<<<<<< HEAD
-* JAE Electronics DX07B024JJ1R1500 USB Type-C Connector
+* Mill-Max Manufacturing Corp. 898-43-024-90-310000
 
 #Descrete Components
 * M1206 MELF 0.25W (voltage regulator resistors)
 * CL21F106ZPFNNNE C0805 (voltage regulator caps)
-=======
-* Mill-Max Manufacturing Corp. 898-43-024-90-310000
->>>>>>> 546cffcd7b1499a8a779e120b0e180dd5c00daa5
+
+
