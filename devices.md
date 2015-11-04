@@ -12,6 +12,6 @@
 
 #Descrete Components
 * M1206 MELF 0.25W (voltage regulator resistors)[8]
-* CL21F106ZPFNNNE C0805 (voltage regulator caps)[5]
+* CL21F106ZPFNNNE C0805 (voltage regulator caps)[21]
 
 
