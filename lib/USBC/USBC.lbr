@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.4.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="mm" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="DX07S024JJ2">
+<smd name="P$1" x="-2.75" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<circle x="-3.6" y="0.45" radius="0.325" width="0.025" layer="44"/>
+<pad name="B12" x="-2.8" y="0" drill="0.4" diameter="0.65"/>
+<pad name="B11" x="-2.4" y="-0.9" drill="0.4" diameter="0.65"/>
+<pad name="B10" x="-1.6" y="-0.9" drill="0.4" diameter="0.65"/>
+<pad name="B8" x="-0.8" y="-0.9" drill="0.4" diameter="0.65"/>
+<pad name="B9" x="-1.2" y="0" drill="0.4" diameter="0.65"/>
+<pad name="B7" x="-0.4" y="0" drill="0.4" diameter="0.65"/>
+<pad name="B6" x="0.4" y="0" drill="0.4" diameter="0.65"/>
+<pad name="B4" x="1.2" y="0" drill="0.4" diameter="0.65"/>
+<pad name="B5" x="0.8" y="-0.9" drill="0.4" diameter="0.65"/>
+<pad name="B3" x="1.6" y="-0.9" drill="0.4" diameter="0.65"/>
+<pad name="B2" x="2.4" y="-0.9" drill="0.4" diameter="0.65"/>
+<pad name="B1" x="2.8" y="0" drill="0.4" diameter="0.65"/>
+<smd name="P$2" x="-2.25" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$3" x="-1.75" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$4" x="-1.25" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$5" x="-0.75" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$6" x="-0.25" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$7" x="0.25" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$8" x="0.75" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$9" x="1.25" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$10" x="1.75" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$11" x="2.25" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="P$12" x="2.75" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+</package>
+</packages>
+<symbols>
+<symbol name="USB-C">
+<pin name="SSTXN1_A" x="-20.32" y="7.62" length="middle"/>
+<pin name="DP1_A" x="-20.32" y="0" length="middle"/>
+<pin name="VBUS2_A" x="-20.32" y="-7.62" length="middle"/>
+<pin name="SBU1_A" x="-20.32" y="-5.08" length="middle"/>
+<pin name="DN1_A" x="-20.32" y="-2.54" length="middle"/>
+<pin name="CC1_A" x="-20.32" y="2.54" length="middle"/>
+<pin name="VBUS_A" x="-20.32" y="5.08" length="middle"/>
+<pin name="SSTXP1_A" x="-20.32" y="10.16" length="middle"/>
+<pin name="GND_A" x="-20.32" y="12.7" length="middle"/>
+<pin name="SSTXN2_A" x="-20.32" y="-10.16" length="middle"/>
+<pin name="SSTXP2_A" x="-20.32" y="-12.7" length="middle"/>
+<pin name="GND2_A" x="-20.32" y="-15.24" length="middle"/>
+<pin name="GND_B" x="20.32" y="12.7" length="middle" rot="R180"/>
+<pin name="SSTXP1_B" x="20.32" y="10.16" length="middle" rot="R180"/>
+<pin name="SSTXN1_B" x="20.32" y="7.62" length="middle" rot="R180"/>
+<pin name="VBUS_B" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="SBU2_B" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="DN2_B" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="DP2_B" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="CC2_B" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="VBUS2_B" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<pin name="SSTXN2_B" x="20.32" y="-10.16" length="middle" rot="R180"/>
+<pin name="SSTXP2_B" x="20.32" y="-12.7" length="middle" rot="R180"/>
+<pin name="GND2_B" x="20.32" y="-15.24" length="middle" rot="R180"/>
+<wire x1="-15.24" y1="15.24" x2="-15.24" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-17.78" x2="15.24" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-17.78" x2="15.24" y2="15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="15.24" x2="-15.24" y2="15.24" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+</devicesets>
+</library>
+</drawing>
+</eagle>
