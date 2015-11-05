@@ -9,3 +9,10 @@
 #Other Devices
 * 12MHz Oscillator
 * Mill-Max Manufacturing Corp. 898-43-024-90-310000
+
+#Descrete Components
+* M1206 MELF 0.25W (voltage regulator resistors)[11]
+* CL21F106ZPFNNNE C0805 (voltage regulator caps)[30]
+* CDBU0520 SMD Schottky Diode [1]
+
+

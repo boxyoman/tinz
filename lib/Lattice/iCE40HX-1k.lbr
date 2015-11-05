@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -364,7 +364,7 @@ Source: http://www.latticesemi.com/lit/docs/package/pkg.pdf</description>
 <pin name="PIO3_03/DP00B" x="45.72" y="58.42" length="middle" rot="R180"/>
 <pin name="PIO3_04/DP01A" x="45.72" y="55.88" length="middle" rot="R180"/>
 <pin name="PIO3_05/DP01B" x="45.72" y="53.34" length="middle" rot="R180"/>
-<pin name="GND_01" x="-5.08" y="45.72" length="middle" direction="pwr"/>
+<pin name="GND_01" x="-5.08" y="33.02" length="middle" direction="pwr"/>
 <pin name="VCCIO3_01" x="-5.08" y="218.44" length="middle" direction="pwr"/>
 <pin name="PIO3_06/DP02A" x="45.72" y="50.8" length="middle" rot="R180"/>
 <pin name="PIO3_07/DP02B" x="45.72" y="48.26" length="middle" rot="R180"/>
@@ -372,12 +372,12 @@ Source: http://www.latticesemi.com/lit/docs/package/pkg.pdf</description>
 <pin name="PIO3_09/DP03B" x="45.72" y="43.18" length="middle" rot="R180"/>
 <pin name="PIO3_10/DP04A" x="45.72" y="40.64" length="middle" rot="R180"/>
 <pin name="PIO3_11/DP04B" x="45.72" y="38.1" length="middle" rot="R180"/>
-<pin name="GND_02" x="-5.08" y="43.18" length="middle" direction="pwr"/>
-<pin name="GND_03" x="-5.08" y="40.64" length="middle" direction="pwr"/>
-<pin name="NC_10" x="-5.08" y="96.52" length="middle" direction="nc"/>
-<pin name="NC_11" x="-5.08" y="93.98" length="middle" direction="nc"/>
-<pin name="NC_12" x="-5.08" y="91.44" length="middle" direction="nc"/>
-<pin name="NC_13" x="-5.08" y="88.9" length="middle" direction="nc"/>
+<pin name="GND_02" x="-5.08" y="30.48" length="middle" direction="pwr"/>
+<pin name="GND_03" x="-5.08" y="27.94" length="middle" direction="pwr"/>
+<pin name="NC_10" x="-5.08" y="71.12" length="middle" direction="nc"/>
+<pin name="NC_11" x="-5.08" y="68.58" length="middle" direction="nc"/>
+<pin name="NC_12" x="-5.08" y="66.04" length="middle" direction="nc"/>
+<pin name="NC_13" x="-5.08" y="63.5" length="middle" direction="nc"/>
 <pin name="PIO3_12/DP07A" x="45.72" y="35.56" length="middle" rot="R180"/>
 <pin name="GBIN7/PIO3_01/DP07B" x="45.72" y="63.5" length="middle" rot="R180"/>
 <pin name="GBIN6/PIO3_00/DP08A" x="45.72" y="66.04" length="middle" rot="R180"/>
@@ -394,12 +394,12 @@ Source: http://www.latticesemi.com/lit/docs/package/pkg.pdf</description>
 <pin name="PIO3_21/DP12B" x="45.72" y="12.7" length="middle" rot="R180"/>
 <pin name="PIO3_22/DP13A" x="45.72" y="10.16" length="middle" rot="R180"/>
 <pin name="PIO3_23/DP13B" x="45.72" y="7.62" length="middle" rot="R180"/>
-<pin name="PLLGND" x="-5.08" y="22.86" length="middle" direction="pwr"/>
-<pin name="PLLVCC" x="-5.08" y="208.28" length="middle" direction="pwr"/>
+<pin name="PLLGND" x="-5.08" y="129.54" length="middle" direction="pwr"/>
+<pin name="PLLVCC" x="-5.08" y="132.08" length="middle" direction="pwr"/>
 <pin name="PIO2_04" x="45.72" y="111.76" length="middle" rot="R180"/>
 <pin name="PIO2_05" x="45.72" y="109.22" length="middle" rot="R180"/>
 <pin name="PIO2_06" x="45.72" y="106.68" length="middle" rot="R180"/>
-<pin name="NC_18" x="-5.08" y="76.2" length="middle" direction="nc"/>
+<pin name="NC_18" x="-5.08" y="50.8" length="middle" direction="nc"/>
 <pin name="PIO2_07" x="45.72" y="104.14" length="middle" rot="R180"/>
 <pin name="PIO2_08" x="45.72" y="101.6" length="middle" rot="R180"/>
 <pin name="PIO2_09" x="45.72" y="99.06" length="middle" rot="R180"/>
@@ -412,40 +412,40 @@ Source: http://www.latticesemi.com/lit/docs/package/pkg.pdf</description>
 <pin name="GBIN4/PIO2_02" x="45.72" y="116.84" length="middle" rot="R180"/>
 <pin name="VCC_01" x="-5.08" y="243.84" length="middle" direction="pwr"/>
 <pin name="PIO2_00" x="45.72" y="121.92" length="middle" rot="R180"/>
-<pin name="NC_15" x="-5.08" y="83.82" length="middle" direction="nc"/>
-<pin name="NC_17" x="-5.08" y="78.74" length="middle" direction="nc"/>
-<pin name="NC_9" x="-5.08" y="99.06" length="middle" direction="nc"/>
+<pin name="NC_15" x="-5.08" y="58.42" length="middle" direction="nc"/>
+<pin name="NC_17" x="-5.08" y="53.34" length="middle" direction="nc"/>
+<pin name="NC_9" x="-5.08" y="73.66" length="middle" direction="nc"/>
 <pin name="PIO2_14" x="45.72" y="86.36" length="middle" rot="R180"/>
 <pin name="VCCIO2_02" x="-5.08" y="220.98" length="middle" direction="pwr"/>
 <pin name="PIO2_03" x="45.72" y="114.3" length="middle" rot="R180"/>
-<pin name="GND_04" x="-5.08" y="38.1" length="middle" direction="pwr"/>
+<pin name="GND_04" x="-5.08" y="25.4" length="middle" direction="pwr"/>
 <pin name="PIO2_15" x="45.72" y="83.82" length="middle" rot="R180"/>
 <pin name="PIO2_16" x="45.72" y="81.28" length="middle" rot="R180"/>
 <pin name="PIO2_17" x="45.72" y="78.74" length="middle" rot="R180"/>
 <pin name="PIO2_18/CBSEL0" x="45.72" y="76.2" length="middle" rot="R180"/>
 <pin name="PIO2_19/CBSEL1" x="45.72" y="73.66" length="middle" rot="R180"/>
-<pin name="CDONE" x="-5.08" y="160.02" length="middle" direction="out"/>
-<pin name="CRESET_B" x="-5.08" y="157.48" length="middle" direction="in"/>
-<pin name="PIOS_02/SPI_SO" x="-5.08" y="170.18" length="middle"/>
-<pin name="PIOS_01/SPI_SI" x="-5.08" y="172.72" length="middle"/>
-<pin name="GND_05" x="-5.08" y="35.56" length="middle" direction="pwr"/>
-<pin name="PIOS_00/SPI_SCK" x="-5.08" y="175.26" length="middle"/>
-<pin name="PIOS_03/SPI_SS_B" x="-5.08" y="167.64" length="middle"/>
-<pin name="SPI_VCC" x="-5.08" y="205.74" length="middle"/>
+<pin name="CDONE" x="-5.08" y="200.66" length="middle" direction="out"/>
+<pin name="CRESET_B" x="-5.08" y="198.12" length="middle" direction="in"/>
+<pin name="PIOS_02/SPI_SO" x="-5.08" y="157.48" length="middle"/>
+<pin name="PIOS_01/SPI_SI" x="-5.08" y="160.02" length="middle"/>
+<pin name="GND_05" x="-5.08" y="22.86" length="middle" direction="pwr"/>
+<pin name="PIOS_00/SPI_SCK" x="-5.08" y="162.56" length="middle"/>
+<pin name="PIOS_03/SPI_SS_B" x="-5.08" y="154.94" length="middle"/>
+<pin name="SPI_VCC" x="-5.08" y="208.28" length="middle"/>
 <pin name="PIO1_22/TDI" x="45.72" y="134.62" length="middle" rot="R180"/>
 <pin name="PIO1_24/TMS" x="45.72" y="129.54" length="middle" rot="R180"/>
 <pin name="PIO1_21/TCK" x="45.72" y="137.16" length="middle" rot="R180"/>
 <pin name="PIO1_23/TDO" x="45.72" y="132.08" length="middle" rot="R180"/>
-<pin name="TRST_B" x="-5.08" y="149.86" length="middle" direction="pas"/>
+<pin name="TRST_B" x="-5.08" y="109.22" length="middle" direction="pas"/>
 <pin name="PIO1_02" x="45.72" y="185.42" length="middle" rot="R180"/>
 <pin name="PIO1_03" x="45.72" y="182.88" length="middle" rot="R180"/>
 <pin name="PIO1_04" x="45.72" y="180.34" length="middle" rot="R180"/>
 <pin name="PIO1_05" x="45.72" y="177.8" length="middle" rot="R180"/>
-<pin name="NC_5" x="-5.08" y="109.22" length="middle" direction="nc"/>
-<pin name="NC_6" x="-5.08" y="106.68" length="middle" direction="nc"/>
-<pin name="NC_7" x="-5.08" y="104.14" length="middle" direction="nc"/>
-<pin name="NC_8" x="-5.08" y="101.6" length="middle" direction="nc"/>
-<pin name="GND_06" x="-5.08" y="33.02" length="middle" direction="pwr"/>
+<pin name="NC_5" x="-5.08" y="83.82" length="middle" direction="nc"/>
+<pin name="NC_6" x="-5.08" y="81.28" length="middle" direction="nc"/>
+<pin name="NC_7" x="-5.08" y="78.74" length="middle" direction="nc"/>
+<pin name="NC_8" x="-5.08" y="76.2" length="middle" direction="nc"/>
+<pin name="GND_06" x="-5.08" y="20.32" length="middle" direction="pwr"/>
 <pin name="PIO1_06" x="45.72" y="175.26" length="middle" rot="R180"/>
 <pin name="PIO1_07" x="45.72" y="172.72" length="middle" rot="R180"/>
 <pin name="VCCIO1_01" x="-5.08" y="228.6" length="middle" direction="pwr"/>
@@ -462,14 +462,14 @@ Source: http://www.latticesemi.com/lit/docs/package/pkg.pdf</description>
 <pin name="VCCIO1_02" x="-5.08" y="226.06" length="middle" direction="pwr"/>
 <pin name="PIO1_15" x="45.72" y="152.4" length="middle" rot="R180"/>
 <pin name="PIO1_16" x="45.72" y="149.86" length="middle" rot="R180"/>
-<pin name="GND_07" x="-5.08" y="30.48" length="middle" direction="pwr"/>
+<pin name="GND_07" x="-5.08" y="17.78" length="middle" direction="pwr"/>
 <pin name="PIO1_17" x="45.72" y="147.32" length="middle" rot="R180"/>
 <pin name="PIO1_18" x="45.72" y="144.78" length="middle" rot="R180"/>
 <pin name="PIO1_19" x="45.72" y="142.24" length="middle" rot="R180"/>
 <pin name="PIO1_20" x="45.72" y="139.7" length="middle" rot="R180"/>
 <pin name="VPP_2V5" x="-5.08" y="213.36" length="middle" direction="pwr"/>
 <pin name="VPP_FAST" x="-5.08" y="210.82" length="middle" direction="pwr"/>
-<pin name="NC_1" x="-5.08" y="119.38" length="middle" direction="nc"/>
+<pin name="NC_1" x="-5.08" y="93.98" length="middle" direction="nc"/>
 <pin name="VCC_04" x="-5.08" y="236.22" length="middle" direction="pwr"/>
 <pin name="PIO0_02" x="45.72" y="248.92" length="middle" rot="R180"/>
 <pin name="PIO0_03" x="45.72" y="246.38" length="middle" rot="R180"/>
@@ -483,15 +483,15 @@ Source: http://www.latticesemi.com/lit/docs/package/pkg.pdf</description>
 <pin name="PIO0_11" x="45.72" y="226.06" length="middle" rot="R180"/>
 <pin name="PIO0_12" x="45.72" y="223.52" length="middle" rot="R180"/>
 <pin name="VCCIO0_02" x="-5.08" y="231.14" length="middle" direction="pwr"/>
-<pin name="NC_2" x="-5.08" y="116.84" length="middle" direction="nc"/>
-<pin name="NC_3" x="-5.08" y="114.3" length="middle" direction="nc"/>
-<pin name="NC_16" x="-5.08" y="81.28" length="middle" direction="nc"/>
-<pin name="NC_14" x="-5.08" y="86.36" length="middle" direction="nc"/>
+<pin name="NC_2" x="-5.08" y="91.44" length="middle" direction="nc"/>
+<pin name="NC_3" x="-5.08" y="88.9" length="middle" direction="nc"/>
+<pin name="NC_16" x="-5.08" y="55.88" length="middle" direction="nc"/>
+<pin name="NC_14" x="-5.08" y="60.96" length="middle" direction="nc"/>
 <pin name="GBIN1/PIO0_01" x="45.72" y="251.46" length="middle" rot="R180"/>
 <pin name="GBIN0/PIO0_00" x="45.72" y="254" length="middle" rot="R180"/>
-<pin name="NC_4" x="-5.08" y="111.76" length="middle" direction="nc"/>
-<pin name="NC_19" x="-5.08" y="73.66" length="middle" direction="nc"/>
-<pin name="GND_08" x="-5.08" y="27.94" length="middle" direction="pwr"/>
+<pin name="NC_4" x="-5.08" y="86.36" length="middle" direction="nc"/>
+<pin name="NC_19" x="-5.08" y="48.26" length="middle" direction="nc"/>
+<pin name="GND_08" x="-5.08" y="15.24" length="middle" direction="pwr"/>
 <pin name="VCCIO0_01" x="-5.08" y="233.68" length="middle" direction="pwr"/>
 <pin name="PIO0_13" x="45.72" y="220.98" length="middle" rot="R180"/>
 <pin name="PIO0_14" x="45.72" y="218.44" length="middle" rot="R180"/>
@@ -499,7 +499,7 @@ Source: http://www.latticesemi.com/lit/docs/package/pkg.pdf</description>
 <pin name="PIO0_16" x="45.72" y="213.36" length="middle" rot="R180"/>
 <pin name="PIO0_17" x="45.72" y="210.82" length="middle" rot="R180"/>
 <pin name="PIO0_18" x="45.72" y="208.28" length="middle" rot="R180"/>
-<pin name="GND_09" x="-5.08" y="25.4" length="middle" direction="pwr"/>
+<pin name="GND_09" x="-5.08" y="12.7" length="middle" direction="pwr"/>
 <pin name="PIO0_19" x="45.72" y="205.74" length="middle" rot="R180"/>
 <pin name="PIO0_20" x="45.72" y="203.2" length="middle" rot="R180"/>
 <pin name="PIO0_21" x="45.72" y="200.66" length="middle" rot="R180"/>
