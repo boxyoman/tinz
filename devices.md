@@ -12,6 +12,7 @@
 
 #Descrete Components
 * M1206 MELF 0.25W (voltage regulator resistors)[11]
-* CL21F106ZPFNNNE C0805 (voltage regulator caps)[22]
+* CL21F106ZPFNNNE C0805 (voltage regulator caps)[30]
+* CDBU0520 SMD Schottky Diode [1]
 
 
