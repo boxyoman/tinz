@@ -6,14 +6,14 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
@@ -32,13 +32,13 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <library>
 <packages>
 <package name="DX07S024JJ2">
-<smd name="P$1" x="-2.75" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="A1" x="-2.75" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
 <circle x="-3.6" y="0.45" radius="0.325" width="0.025" layer="44"/>
 <pad name="B12" x="-2.8" y="0" drill="0.4" diameter="0.65"/>
 <pad name="B11" x="-2.4" y="-0.9" drill="0.4" diameter="0.65"/>
@@ -72,17 +72,17 @@
 <pad name="B3" x="1.6" y="-0.9" drill="0.4" diameter="0.65"/>
 <pad name="B2" x="2.4" y="-0.9" drill="0.4" diameter="0.65"/>
 <pad name="B1" x="2.8" y="0" drill="0.4" diameter="0.65"/>
-<smd name="P$2" x="-2.25" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$3" x="-1.75" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$4" x="-1.25" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$5" x="-0.75" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$6" x="-0.25" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$7" x="0.25" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$8" x="0.75" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$9" x="1.25" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$10" x="1.75" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$11" x="2.25" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$12" x="2.75" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="A2" x="-2.25" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="A3" x="-1.75" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="A4" x="-1.25" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="A5" x="-0.75" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="A6" x="-0.25" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="A7" x="0.25" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="A8" x="0.75" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="A9" x="1.25" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="A10" x="1.75" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="A11" x="2.25" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
+<smd name="A12" x="2.75" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
 <smd name="P$13" x="-1.25" y="2" dx="0.3" dy="0.5" layer="1" rot="R90"/>
 <smd name="P$14" x="1.25" y="2" dx="0.3" dy="0.5" layer="1" rot="R90"/>
 <smd name="P$15" x="-3.375" y="2" dx="0.3" dy="0.5" layer="1" rot="R90"/>
@@ -116,6 +116,19 @@
 <wire x1="4.36" y1="-1.04" x2="4.36" y2="-0.55" width="0.025" layer="46"/>
 <wire x1="4.36" y1="-0.55" x2="4.13" y2="-0.32" width="0.025" layer="46" curve="90"/>
 <circle x="3.6" y="0.45" radius="0.325" width="0.025" layer="44"/>
+<wire x1="-7.1" y1="-7.75" x2="-4.625" y2="-7.75" width="0.025" layer="21"/>
+<wire x1="-4.625" y1="-7.75" x2="-4.625" y2="-2.05" width="0.025" layer="21"/>
+<wire x1="-4.625" y1="-2.05" x2="-4.125" y2="-1.55" width="0.025" layer="21" curve="-90"/>
+<wire x1="-4.125" y1="-1.55" x2="4.125" y2="-1.55" width="0.025" layer="21"/>
+<wire x1="4.125" y1="-1.55" x2="4.625" y2="-2.05" width="0.025" layer="21" curve="-90"/>
+<wire x1="4.625" y1="-2.05" x2="4.625" y2="-7.75" width="0.025" layer="21"/>
+<wire x1="4.625" y1="-7.75" x2="7.235" y2="-7.75" width="0.025" layer="21"/>
+<text x="-3.81" y="-3.81" size="1.27" layer="21">&gt;NAME</text>
+<text x="-3.81" y="-6.35" size="1.27" layer="21">&gt;VALUE</text>
+<hole x="-3.375" y="2" drill="0.6"/>
+<hole x="-1.25" y="2" drill="0.6"/>
+<hole x="1.25" y="2" drill="0.6"/>
+<hole x="3.375" y="2" drill="0.6"/>
 </package>
 </packages>
 <symbols>
@@ -148,9 +161,49 @@
 <wire x1="-15.24" y1="-17.78" x2="15.24" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="15.24" y1="-17.78" x2="15.24" y2="15.24" width="0.254" layer="94"/>
 <wire x1="15.24" y1="15.24" x2="-15.24" y2="15.24" width="0.254" layer="94"/>
+<text x="-7.62" y="17.78" size="1.27" layer="94" rot="R180">&gt;NAME</text>
+<text x="-12.7" y="-20.32" size="1.27" layer="94">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="DX07S0">
+<gates>
+<gate name="G$1" symbol="USB-C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DX07S024JJ2">
+<connects>
+<connect gate="G$1" pin="CC1_A" pad="A5"/>
+<connect gate="G$1" pin="CC2_B" pad="B5"/>
+<connect gate="G$1" pin="DN1_A" pad="A7"/>
+<connect gate="G$1" pin="DN2_B" pad="B7"/>
+<connect gate="G$1" pin="DP1_A" pad="A6"/>
+<connect gate="G$1" pin="DP2_B" pad="B6"/>
+<connect gate="G$1" pin="GND2_A" pad="A12"/>
+<connect gate="G$1" pin="GND2_B" pad="B1"/>
+<connect gate="G$1" pin="GND_A" pad="A1 P$13 P$14 P$15 P$16 P$17 P$18 P$19 P$20"/>
+<connect gate="G$1" pin="GND_B" pad="B12"/>
+<connect gate="G$1" pin="SBU1_A" pad="A8"/>
+<connect gate="G$1" pin="SBU2_B" pad="B8"/>
+<connect gate="G$1" pin="SSTXN1_A" pad="A3"/>
+<connect gate="G$1" pin="SSTXN1_B" pad="B10"/>
+<connect gate="G$1" pin="SSTXN2_A" pad="A10"/>
+<connect gate="G$1" pin="SSTXN2_B" pad="B3"/>
+<connect gate="G$1" pin="SSTXP1_A" pad="A2"/>
+<connect gate="G$1" pin="SSTXP1_B" pad="B11"/>
+<connect gate="G$1" pin="SSTXP2_A" pad="A11"/>
+<connect gate="G$1" pin="SSTXP2_B" pad="B2"/>
+<connect gate="G$1" pin="VBUS2_A" pad="A9"/>
+<connect gate="G$1" pin="VBUS2_B" pad="B4"/>
+<connect gate="G$1" pin="VBUS_A" pad="A4"/>
+<connect gate="G$1" pin="VBUS_B" pad="B9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
