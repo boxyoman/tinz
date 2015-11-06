@@ -1,31 +1,32 @@
 #+NAME: Device Table
-| Name                   | Part #               | DigiKey Part # | Package      | Description             | Value | Amount |
-|------------------------+----------------------+----------------+--------------+-------------------------+-------+--------|
-| Lattice                | iCE40HX1k            |                | TQ144        | FPGA                    | N/A   |      1 |
-| *Atmel                 | TDA                  |                | TDA          | MCU                     | N/A   |      1 |
-| Microchip              | 93LC56C              |                | SOIC-8       | Serial EEPROM           | N/A   |      1 |
-| Micron                 | N25Q032A13ESC40F     |                | SOIC-8       | Serial NOR Flash Memory | N/A   |      1 |
-| FTDI                   | FT2232H              |                | LQFP-ST-64-2 | USB 2.0 Controller      | N/A   |      1 |
-| Linear Technology      | LT3030EFE#TRPBF      |                | TSSOP20      | Voltage Regulator       | N/A   |      1 |
-| Mill-Max Manufacturing | 898-43-024-90-310000 |                | N/A          | USB Type-C Connector    | N/A   |      1 |
-| *Oscillator            | TBA                  |                | TBA          | 12MHz Oscillator        | 12MHz |      1 |
-|------------------------+----------------------+----------------+--------------+-------------------------+-------+--------|
-| Resistor               | M1206                |                | SMD          | MELF 0.25W              | 0     |     14 |
-| Resistor               | M1206                |                | SMD          | MELF 0.25W              | 0.1   |      3 |
-| Resistor               | M1206                |                | SMD          | MELF 0.25W              | 100   |      3 |
-| Resistor               | M1206                |                | SMD          | MELF 0.25W              | 2.2k  |      2 |
-| Resistor               | M1206                |                | SMD          | MELF 0.25W              | 10k   |     10 |
-| Resistor               | M1206                |                | SMD          | MELF 0.25W              | 12k   |      1 |
-| Resistor               | M1206                |                | SMD          | MELF 0.25W              | 210k  |      1 |
-| Resistor               | M1206                |                | SMD          | MELF 0.25W              | 357k  |      1 |
-| Resistor               | M1206                |                | SMD          | MELF 0.25W              | 1M    |      2 |
-|------------------------+----------------------+----------------+--------------+-------------------------+-------+--------|
-| Capacitor              | C0805                |                | SMD          | CL21F106ZPFNNNE         | 0.01u |      4 |
-| Capacitor              | C0805                |                | SMD          | CL21F106ZPFNNNE         | 0.1u  |     24 |
-| Capacitor              | C0805                |                | SMD          | CL21F106ZPFNNNE         | 1u    |      2 |
-| Capacitor              | C0805                |                | SMD          | CL21F106ZPFNNNE         | 4.7u  |      3 |
-| Capacitor              | C0805                |                | SMD          | CL21F106ZPFNNNE         | 10u   |      6 |
-|------------------------+----------------------+----------------+--------------+-------------------------+-------+--------|
-| Diode                  | CDBU0520             |                | SMD          | Schottky  Diode         | N/A   |      1 |
-|------------------------+----------------------+----------------+--------------+-------------------------+-------+--------|
-|                        |                      |                |              |                         |       |        |
+| Name                   | Part #               | DigiKey Part #      | Package      | Description             | Value | Amount |
+|------------------------+----------------------+---------------------+--------------+-------------------------+-------+--------|
+| Lattice                | iCE40HX1k            | 220-1565-ND         | TQ144        | FPGA                    | N/A   |      1 |
+| Atmel                  | ATSAM3S4A            | ATSAM3S4AA-AURCT-ND | LQFP-48      | MCU                     | N/A   |      1 |
+| Microchip              | 93LC56C              | 93LC56C-I/SN-ND     | SOIC-8       | Serial EEPROM           | N/A   |      1 |
+| Micron                 | N25Q032A13ESC40F     | N25Q032A13ESC40F-ND | SOIC-8       | Serial NOR Flash Memory | N/A   |      1 |
+| FTDI                   | FT2232H              | 768-1024-1-ND       | LQFP-ST-64-2 | USB 2.0 Controller      | N/A   |      1 |
+| Linear Technology      | LT3030EFE            | LT3030EFE#PBF-ND    | TSSOP20      | Voltage Regulator       | N/A   |      1 |
+| Mill-Max Manufacturing | 898-43-024-90-310000 | ED1391CT-ND         | N/A          | USB Type-C Connector    | N/A   |      1 |
+| *Oscillator            | TBA                  |                     | TBA          | 12MHz Oscillator        | 12MHz |      1 |
+|------------------------+----------------------+---------------------+--------------+-------------------------+-------+--------|
+| Resistor               | M1206                |                     | SMD          | MELF 0.25W              | 0     |     14 |
+| Resistor               | M1206                |                     | SMD          | MELF 0.25W              | 0.1   |      3 |
+| Resistor               | M1206                |                     | SMD          | MELF 0.25W              | 100   |      3 |
+| Resistor               | M1206                |                     | SMD          | MELF 0.25W              | 2.2k  |      2 |
+| Resistor               | M1206                |                     | SMD          | MELF 0.25W              | 10k   |     10 |
+| Resistor               | M1206                |                     | SMD          | MELF 0.25W              | 12k   |      1 |
+| Resistor               | M1206                |                     | SMD          | MELF 0.25W              | 210k  |      1 |
+| Resistor               | M1206                |                     | SMD          | MELF 0.25W              | 357k  |      1 |
+| Resistor               | M1206                |                     | SMD          | MELF 0.25W              | 1M    |      2 |
+|------------------------+----------------------+---------------------+--------------+-------------------------+-------+--------|
+| Capacitor              | C0805                | 399-1173-1-ND*      | SMD          | CL21F106ZPFNNNE         | 0.01u |      4 |
+| Capacitor              | C0805                | 399-7999-1-ND*      | SMD          | CL21F106ZPFNNNE         | 0.1u  |     24 |
+| Capacitor              | C0805                | 311-1458-1-ND       | SMD          | CL21F106ZPFNNNE         | 1u    |      2 |
+| Capacitor              | C0805                | 311-1371-1-ND       | SMD          | CL21F106ZPFNNNE         | 4.7u  |      3 |
+| Capacitor              | C0805                | 1276-3012-1-ND      | SMD          | CL21F106ZPFNNNE         | 10u   |      6 |
+|------------------------+----------------------+---------------------+--------------+-------------------------+-------+--------|
+| Diode                  | CDBU0520             |                     | SMD          | Schottky  Diode         | N/A   |      1 |
+|------------------------+----------------------+---------------------+--------------+-------------------------+-------+--------|
+|                        |                      |                     |              |                         |       |        |
+
