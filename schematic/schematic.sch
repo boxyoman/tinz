@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -8156,6 +8156,7 @@ Source: http://www.latticesemi.com/lit/docs/package/pkg.pdf</description>
 <part name="U$6" library="USBC" deviceset="DX07S0" device=""/>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY20" library="supply2" deviceset="GND" device=""/>
+<part name="R37" library="resistor" deviceset="R-US_" device="M1206" value="1K"/>
 </parts>
 <sheets>
 <sheet>
@@ -8390,6 +8391,10 @@ cap and power pin stuff</text>
 <instance part="U$6" gate="G$1" x="-81.28" y="40.64"/>
 <instance part="SUPPLY14" gate="GND" x="-55.88" y="17.78"/>
 <instance part="SUPPLY20" gate="GND" x="-106.68" y="17.78"/>
+<instance part="R37" gate="G$1" x="287.02" y="208.28" smashed="yes">
+<attribute name="NAME" x="284.48" y="213.868" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="287.782" y="213.868" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9578,14 +9583,12 @@ cap and power pin stuff</text>
 <segment>
 <pinref part="R32" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="104.14" x2="121.92" y2="104.14" width="0.1524" layer="91"/>
-<label x="121.92" y="103.378" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CTSN" class="0">
 <segment>
 <pinref part="R33" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="101.6" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
-<label x="121.92" y="100.838" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DTRN" class="0">
@@ -9594,19 +9597,22 @@ cap and power pin stuff</text>
 <wire x1="116.84" y1="99.06" x2="121.92" y2="99.06" width="0.1524" layer="91"/>
 <label x="121.92" y="98.298" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U2" gate="A" pin="ERASE/PB12"/>
+<wire x1="393.7" y1="27.94" x2="408.94" y2="27.94" width="0.1524" layer="91"/>
+<label x="401.32" y="27.94" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DSRN" class="0">
 <segment>
 <pinref part="R35" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="96.52" x2="121.92" y2="96.52" width="0.1524" layer="91"/>
-<label x="121.92" y="95.758" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DCDN" class="0">
 <segment>
 <pinref part="R36" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="93.98" x2="121.92" y2="93.98" width="0.1524" layer="91"/>
-<label x="121.92" y="93.218" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DM" class="0">
@@ -9665,12 +9671,6 @@ cap and power pin stuff</text>
 <pinref part="R31" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="106.68" x2="121.92" y2="106.68" width="0.1524" layer="91"/>
 <label x="121.92" y="105.918" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$31" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="ERASE/PB12"/>
-<wire x1="393.7" y1="27.94" x2="411.48" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

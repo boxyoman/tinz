@@ -32,6 +32,5 @@
 | Button                 | PTS645SL50SMTR92 LFS | CKN9088CT-ND           | SMD          | Black push button       | N/A   |      4 |
 | Button                 | PTS645SK50SMTR92 LFS | CKN9087CT-ND           | SMD          | Red push button         | N/A   |      2 |
 |------------------------+----------------------+------------------------+--------------+-------------------------+-------+--------|
-| amber LED              |                      | 160-1166-1-ND          | SMD          |                         | N/A   |      4 |
-| green LED              |                      | 160-1169-1-ND          | SMD          |                         | N/A   |      2 |
-
+| LED                    |                      | 160-1166-1-ND          | SMD          | Amber LED               | N/A   |      4 |
+| LED                    |                      | 160-1169-1-ND          | SMD          | Green LED               | N/A   |      2 |
