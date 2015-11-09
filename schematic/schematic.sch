@@ -9661,20 +9661,25 @@ Source: www.kingbright.com</description>
 <part name="U$6" library="USBC" deviceset="DX07S0" device=""/>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY20" library="supply2" deviceset="GND" device=""/>
-<part name="R37" library="resistor" deviceset="R-US_" device="M1206" value="120"/>
-<part name="LED1" library="led" deviceset="LED" device="SMT1206" value="Blue"/>
-<part name="LED2" library="led" deviceset="LED" device="SMT1206" value="Blue"/>
+<part name="R37" library="resistor" deviceset="R-US_" device="M1206" value="100"/>
+<part name="LED1" library="led" deviceset="LED" device="SMT1206" value="Green"/>
+<part name="LED2" library="led" deviceset="LED" device="SMT1206" value="Green"/>
 <part name="LED3" library="led" deviceset="LED" device="SMT1206" value="Green"/>
 <part name="LED4" library="led" deviceset="LED" device="SMT1206" value="Green"/>
-<part name="R38" library="resistor" deviceset="R-US_" device="M1206" value="120"/>
-<part name="R39" library="resistor" deviceset="R-US_" device="M1206" value="120"/>
-<part name="R40" library="resistor" deviceset="R-US_" device="M1206" value="120"/>
+<part name="R38" library="resistor" deviceset="R-US_" device="M1206" value="100"/>
+<part name="R39" library="resistor" deviceset="R-US_" device="M1206" value="100"/>
+<part name="R40" library="resistor" deviceset="R-US_" device="M1206" value="100"/>
 <part name="SUPPLY21" library="supply2" deviceset="GND" device=""/>
 <part name="LED5" library="led" deviceset="LED" device="SMT1206" value="Amber"/>
 <part name="LED6" library="led" deviceset="LED" device="SMT1206" value="Amber"/>
-<part name="R41" library="resistor" deviceset="R-US_" device="M1206" value="120"/>
-<part name="R42" library="resistor" deviceset="R-US_" device="M1206" value="120"/>
+<part name="R41" library="resistor" deviceset="R-US_" device="M1206" value="100"/>
+<part name="R42" library="resistor" deviceset="R-US_" device="M1206" value="100"/>
 <part name="SUPPLY22" library="supply2" deviceset="GND" device=""/>
+<part name="LED7" library="led" deviceset="LED" device="SMT1206" value="Red"/>
+<part name="LED8" library="led" deviceset="LED" device="SMT1206" value="Red"/>
+<part name="R43" library="resistor" deviceset="R-US_" device="M1206" value="25"/>
+<part name="R44" library="resistor" deviceset="R-US_" device="M1206" value="100"/>
+<part name="SUPPLY23" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9686,6 +9691,8 @@ Source: www.kingbright.com</description>
 <text x="132.08" y="213.36" size="1.778" layer="91">Unsure about most of the bypass
 cap and power pin stuff</text>
 <text x="149.86" y="274.32" size="1.778" layer="91">iCE VCCIOX bypass caps</text>
+<text x="365.76" y="248.92" size="1.778" layer="91">FPGA LEDs</text>
+<text x="368.3" y="195.58" size="1.778" layer="91">MCU LEDs</text>
 </plain>
 <instances>
 <instance part="SUPPLY1" gate="GND" x="302.26" y="17.78"/>
@@ -9915,11 +9922,11 @@ cap and power pin stuff</text>
 </instance>
 <instance part="LED1" gate="G$1" x="381" y="215.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="380.492" y="219.456" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="385.572" y="219.075" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="388.112" y="219.075" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="LED2" gate="G$1" x="381" y="223.52" smashed="yes" rot="R90">
 <attribute name="NAME" x="380.492" y="227.076" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="385.572" y="226.695" size="1.778" layer="96" rot="R180"/>
+<attribute name="VALUE" x="388.112" y="226.695" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="LED3" gate="G$1" x="381" y="231.14" smashed="yes" rot="R90">
 <attribute name="NAME" x="380.492" y="234.696" size="1.778" layer="95" rot="R180"/>
@@ -9959,6 +9966,23 @@ cap and power pin stuff</text>
 <attribute name="VALUE" x="369.062" y="188.468" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY22" gate="GND" x="391.16" y="167.64"/>
+<instance part="LED7" gate="G$1" x="-134.62" y="71.12" smashed="yes" rot="R90">
+<attribute name="NAME" x="-135.128" y="74.676" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-127.508" y="74.295" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="LED8" gate="G$1" x="-134.62" y="81.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="-135.128" y="84.836" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-127.508" y="84.455" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R43" gate="G$1" x="-147.32" y="71.12" smashed="yes">
+<attribute name="NAME" x="-152.4" y="74.168" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-146.558" y="74.168" size="1.778" layer="96"/>
+</instance>
+<instance part="R44" gate="G$1" x="-147.32" y="81.28" smashed="yes">
+<attribute name="NAME" x="-152.4" y="84.328" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-146.558" y="84.328" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY23" gate="GND" x="-124.46" y="63.5"/>
 </instances>
 <busses>
 </busses>
@@ -10301,6 +10325,16 @@ cap and power pin stuff</text>
 <junction x="391.16" y="177.8"/>
 <pinref part="SUPPLY22" gate="GND" pin="GND"/>
 </segment>
+<segment>
+<pinref part="LED8" gate="G$1" pin="C"/>
+<wire x1="-129.54" y1="81.28" x2="-124.46" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="81.28" x2="-124.46" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="LED7" gate="G$1" pin="C"/>
+<wire x1="-129.54" y1="71.12" x2="-124.46" y2="71.12" width="0.1524" layer="91"/>
+<junction x="-124.46" y="71.12"/>
+<pinref part="SUPPLY23" gate="GND" pin="GND"/>
+<wire x1="-124.46" y1="66.04" x2="-124.46" y2="71.12" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
@@ -10425,6 +10459,11 @@ cap and power pin stuff</text>
 <wire x1="-88.9" y1="60.96" x2="-88.9" y2="66.04" width="0.1524" layer="91"/>
 <junction x="-88.9" y="60.96"/>
 <label x="-93.98" y="66.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R44" gate="G$1" pin="1"/>
+<wire x1="-152.4" y1="81.28" x2="-165.1" y2="81.28" width="0.1524" layer="91"/>
+<label x="-165.1" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+1.22V" class="0">
@@ -11377,6 +11416,27 @@ cap and power pin stuff</text>
 <pinref part="U2" gate="A" pin="PA7/XIN32/PGMNVALID"/>
 <wire x1="393.7" y1="68.58" x2="408.94" y2="68.58" width="0.1524" layer="91"/>
 <label x="403.86" y="68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<pinref part="LED8" gate="G$1" pin="A"/>
+<pinref part="R44" gate="G$1" pin="2"/>
+<wire x1="-137.16" y1="81.28" x2="-142.24" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$38" class="0">
+<segment>
+<pinref part="R43" gate="G$1" pin="2"/>
+<pinref part="LED7" gate="G$1" pin="A"/>
+<wire x1="-142.24" y1="71.12" x2="-137.16" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="3.3V" class="0">
+<segment>
+<pinref part="R43" gate="G$1" pin="1"/>
+<wire x1="-152.4" y1="71.12" x2="-165.1" y2="71.12" width="0.1524" layer="91"/>
+<label x="-160.02" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
