@@ -9667,6 +9667,12 @@ cap and power pin stuff</text>
 <label x="121.92" y="105.918" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="N$31" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="ERASE/PB12"/>
+<wire x1="393.7" y1="27.94" x2="411.48" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
