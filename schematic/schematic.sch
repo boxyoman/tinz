@@ -9547,6 +9547,87 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="crystal">
+<packages>
+<package name="SG-636">
+<smd name="3" x="2.54" y="2.3" dx="1.3" dy="2.1" layer="1"/>
+<smd name="2" x="2.54" y="-2.3" dx="1.3" dy="2.1" layer="1"/>
+<smd name="1" x="-2.54" y="-2.3" dx="1.3" dy="2.1" layer="1"/>
+<smd name="4" x="-2.54" y="2.3" dx="1.3" dy="2.1" layer="1"/>
+<wire x1="-4.5" y1="2.5" x2="4.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="4.5" y1="2.5" x2="4.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="4.5" y1="-2.5" x2="-4.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="-2.5" x2="-4.5" y2="-1" width="0.127" layer="21"/>
+<circle x="3.5" y="-1" radius="0.5" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="-1" x2="-4.5" y2="1" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="1" x2="-4.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="1" x2="-4.5" y2="-1" width="0.127" layer="21" curve="-180"/>
+<text x="-3" y="4" size="1.27" layer="21">&gt;NAME</text>
+<text x="-3.5" y="-5" size="1.27" layer="21">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="QG1">
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="0" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="5.08" x2="2.54" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="6.35" y2="0" width="0.4064" layer="94"/>
+<wire x1="6.35" y1="0" x2="-1.27" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="-5.08" x2="-1.27" y2="-3.175" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="-3.175" x2="-1.27" y2="3.175" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="3.175" x2="-1.27" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="3.175" x2="-1.27" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="-3.175" x2="-1.27" y2="-3.175" width="0.1524" layer="94"/>
+<wire x1="6.35" y1="0" x2="7.62" y2="0" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="2.54" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-4.826" y1="-0.381" x2="-4.826" y2="0.381" width="0.254" layer="94"/>
+<wire x1="-4.826" y1="0.381" x2="-2.794" y2="0.381" width="0.254" layer="94"/>
+<wire x1="-2.794" y1="0.381" x2="-2.794" y2="-0.381" width="0.254" layer="94"/>
+<wire x1="-4.826" y1="-0.381" x2="-2.794" y2="-0.381" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.016" x2="-3.81" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-1.016" x2="-2.54" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.016" x2="-3.81" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="-3.175" x2="-3.81" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="1.016" x2="-2.54" y2="1.016" width="0.254" layer="94"/>
+<text x="-7.62" y="8.255" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-6.985" y="-5.842" size="1.524" layer="95">GND</text>
+<text x="-6.985" y="4.318" size="1.524" layer="95">VCC</text>
+<text x="4.064" y="-3.556" size="1.524" layer="95">FO</text>
+<text x="3.81" y="5.588" size="1.524" layer="95">OE</text>
+<pin name="GND" x="-12.7" y="-5.08" visible="pad" length="middle" direction="pwr"/>
+<pin name="VCC" x="-12.7" y="5.08" visible="pad" length="middle" direction="pwr"/>
+<pin name="FO" x="12.7" y="0" visible="pad" length="middle" direction="out" rot="R180"/>
+<pin name="OE" x="12.7" y="5.08" visible="pad" length="middle" direction="in" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SG-636PCE">
+<description>12 MHz oscillator</description>
+<gates>
+<gate name="G$1" symbol="QG1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SG-636">
+<connects>
+<connect gate="G$1" pin="FO" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="OE" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9680,6 +9761,10 @@ Source: www.kingbright.com</description>
 <part name="R43" library="resistor" deviceset="R-US_" device="M1206" value="25"/>
 <part name="R44" library="resistor" deviceset="R-US_" device="M1206" value="100"/>
 <part name="SUPPLY23" library="supply2" deviceset="GND" device=""/>
+<part name="U$7" library="crystal" deviceset="SG-636PCE" device=""/>
+<part name="SUPPLY24" library="supply2" deviceset="GND" device=""/>
+<part name="C41" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="R45" library="resistor" deviceset="R-US_" device="M1206" value="100"/>
 </parts>
 <sheets>
 <sheet>
@@ -9693,6 +9778,7 @@ cap and power pin stuff</text>
 <text x="149.86" y="274.32" size="1.778" layer="91">iCE VCCIOX bypass caps</text>
 <text x="365.76" y="248.92" size="1.778" layer="91">FPGA LEDs</text>
 <text x="368.3" y="195.58" size="1.778" layer="91">MCU LEDs</text>
+<text x="27.94" y="256.54" size="1.778" layer="91">12 MHz clock</text>
 </plain>
 <instances>
 <instance part="SUPPLY1" gate="GND" x="302.26" y="17.78"/>
@@ -9983,6 +10069,13 @@ cap and power pin stuff</text>
 <attribute name="VALUE" x="-146.558" y="84.328" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY23" gate="GND" x="-124.46" y="63.5"/>
+<instance part="U$7" gate="G$1" x="35.56" y="243.84"/>
+<instance part="SUPPLY24" gate="GND" x="15.24" y="231.14"/>
+<instance part="C41" gate="G$1" x="15.24" y="243.84"/>
+<instance part="R45" gate="G$1" x="50.8" y="256.54" smashed="yes" rot="R90">
+<attribute name="NAME" x="55.626" y="260.35" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="56.642" y="257.81" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10334,6 +10427,14 @@ cap and power pin stuff</text>
 <junction x="-124.46" y="71.12"/>
 <pinref part="SUPPLY23" gate="GND" pin="GND"/>
 <wire x1="-124.46" y1="66.04" x2="-124.46" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="GND"/>
+<wire x1="22.86" y1="238.76" x2="15.24" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="238.76" x2="15.24" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="SUPPLY24" gate="GND" pin="GND"/>
+<pinref part="C41" gate="G$1" pin="2"/>
+<junction x="15.24" y="238.76"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -11437,6 +11538,65 @@ cap and power pin stuff</text>
 <pinref part="R43" gate="G$1" pin="1"/>
 <wire x1="-152.4" y1="71.12" x2="-165.1" y2="71.12" width="0.1524" layer="91"/>
 <label x="-160.02" y="71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="VCC"/>
+<wire x1="22.86" y1="248.92" x2="15.24" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="248.92" x2="15.24" y2="251.46" width="0.1524" layer="91"/>
+<label x="12.7" y="251.46" size="1.778" layer="95"/>
+<pinref part="C41" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="246.38" x2="15.24" y2="248.92" width="0.1524" layer="91"/>
+<junction x="15.24" y="248.92"/>
+</segment>
+<segment>
+<pinref part="R45" gate="G$1" pin="2"/>
+<wire x1="50.8" y1="261.62" x2="50.8" y2="266.7" width="0.1524" layer="91"/>
+<label x="48.26" y="266.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="A" pin="VDDIO"/>
+<wire x1="307.34" y1="78.74" x2="302.26" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="U2" gate="A" pin="VDDIO_3"/>
+<wire x1="302.26" y1="78.74" x2="302.26" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="81.28" x2="307.34" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="U2" gate="A" pin="VDDIO_2"/>
+<wire x1="302.26" y1="81.28" x2="302.26" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="83.82" x2="307.34" y2="83.82" width="0.1524" layer="91"/>
+<junction x="302.26" y="81.28"/>
+<pinref part="U2" gate="A" pin="VDDIN"/>
+<wire x1="302.26" y1="83.82" x2="302.26" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="86.36" x2="307.34" y2="86.36" width="0.1524" layer="91"/>
+<junction x="302.26" y="83.82"/>
+<wire x1="302.26" y1="83.82" x2="289.56" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="289.56" y1="83.82" x2="289.56" y2="88.9" width="0.1524" layer="91"/>
+<label x="287.02" y="88.9" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$39" class="0">
+<segment>
+<pinref part="U$7" gate="G$1" pin="OE"/>
+<wire x1="48.26" y1="248.92" x2="50.8" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="248.92" x2="50.8" y2="251.46" width="0.1524" layer="91"/>
+<pinref part="R45" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="12MHZ" class="0">
+<segment>
+<pinref part="U$7" gate="G$1" pin="FO"/>
+<wire x1="48.26" y1="243.84" x2="58.42" y2="243.84" width="0.1524" layer="91"/>
+<label x="55.88" y="243.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$40" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PA3"/>
+<wire x1="393.7" y1="78.74" x2="408.94" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$41" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PA4/PGMNCMD"/>
+<wire x1="393.7" y1="76.2" x2="408.94" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
