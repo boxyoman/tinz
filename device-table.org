@@ -35,9 +35,9 @@
 | Button                 | PTS645SL50SMTR92 LFS | CKN9088CT-ND        | SMD          | Black push button       | N/A   |      4 |
 | Button                 | PTS645SK50SMTR92 LFS | CKN9087CT-ND        | SMD          | Red push button         | N/A   |      2 |
 |------------------------+----------------------+---------------------+--------------+-------------------------+-------+--------|
-| LED                    | LTST-C150AKT         | 160-1166-1-ND       | SMD          | Amber LED               | N/A   |      4 |
-| LED                    | LTST-C150GKT         | 160-1169-1-ND       | SMD          | Green LED               | N/A   |      4 |
-| LED                    | LTST-C150EKT         | 160-1168-1-ND       | SMD          | Red LED                 | N/A   |      2 |
+| LED                    | LTST-C191KFKT        | 160-1445-1-ND       | SMD          | Orange LED              | N/A   |      4 |
+| LED                    | LTST-C191KGKT        | 160-1446-1-ND       | SMD          | Green LED               | N/A   |      4 |
+| LED                    | LTST-C191KRKT        | 160-1447-1-ND       | SMD          | Red LED                 | N/A   |      2 |
 |------------------------+----------------------+---------------------+--------------+-------------------------+-------+--------|
 | Connector              | 5-534237-4           | A32907-ND           | Through-hole | 6-pin female connector  | N/A   |      4 |
 |------------------------+----------------------+---------------------+--------------+-------------------------+-------+--------|
