@@ -24,6 +24,7 @@
 | Capacitor              | C0805                | 399-1173-1-ND          | SMD          | CL21F106ZPFNNNE         | 0.01u |      4 |
 | Capacitor              | C0805                | 399-7999-1-ND          | SMD          | CL21F106ZPFNNNE         | 0.1u  |     24 |
 | Capacitor              | C0805                | 311-1458-1-ND          | SMD          | CL21F106ZPFNNNE         | 1u    |      2 |
+| Capacitor              | C0805                | 311-1146-1-ND          | SMD          | CL21F106ZPFNNNE         | 2.2u  |      1 |
 | Capacitor              | C0805                | 311-1371-1-ND          | SMD          | CL21F106ZPFNNNE         | 4.7u  |      3 |
 | Capacitor              | C0805                | 1276-3012-1-ND         | SMD          | CL21F106ZPFNNNE         | 10u   |      6 |
 |------------------------+----------------------+------------------------+--------------+-------------------------+-------+--------|

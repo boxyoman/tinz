@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,12 +39,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -9647,124 +9647,133 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
 <part name="U$4" library="voltageReg" deviceset="LT3030EFE#TRPBF" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="GND" device=""/>
-<part name="R1" library="resistor" deviceset="R-US_" device="M1206" value="1M"/>
-<part name="R2" library="resistor" deviceset="R-US_" device="M1206" value="1M"/>
-<part name="R3" library="resistor" deviceset="R-US_" device="M1206" value="357K"/>
-<part name="R4" library="resistor" deviceset="R-US_" device="M1206" value="100"/>
-<part name="R5" library="resistor" deviceset="R-US_" device="M1206" value="100"/>
-<part name="R6" library="resistor" deviceset="R-US_" device="M1206" value="210K"/>
-<part name="R7" library="resistor" deviceset="R-US_" device="M1206" value="0.1"/>
-<part name="R8" library="resistor" deviceset="R-US_" device="M1206" value="0.1"/>
-<part name="C1" library="resistor" deviceset="C-US" device="C0805" value="10uF"/>
-<part name="C2" library="resistor" deviceset="C-US" device="C0805" value="0.01uF"/>
-<part name="C3" library="resistor" deviceset="C-US" device="C0805" value="0.01uF"/>
-<part name="C4" library="resistor" deviceset="C-US" device="C0805" value="10uF"/>
-<part name="C5" library="resistor" deviceset="C-US" device="C0805" value="4.7uF"/>
+<part name="R1" library="resistor" deviceset="R-US_" device="R0603" value="1M"/>
+<part name="R2" library="resistor" deviceset="R-US_" device="R0603" value="1M"/>
+<part name="R3" library="resistor" deviceset="R-US_" device="R0603" value="357K"/>
+<part name="R4" library="resistor" deviceset="R-US_" device="R0603" value="100"/>
+<part name="R5" library="resistor" deviceset="R-US_" device="R0603" value="100"/>
+<part name="R6" library="resistor" deviceset="R-US_" device="R0603" value="210K"/>
+<part name="R7" library="resistor" deviceset="R-US_" device="R0603" value="0.1"/>
+<part name="R8" library="resistor" deviceset="R-US_" device="R0603" value="0.1"/>
+<part name="C1" library="resistor" deviceset="C-US" device="C0603" value="10uF"/>
+<part name="C2" library="resistor" deviceset="C-US" device="C0603" value="0.01uF"/>
+<part name="C3" library="resistor" deviceset="C-US" device="C0603" value="0.01uF"/>
+<part name="C4" library="resistor" deviceset="C-US" device="C0603" value="10uF"/>
+<part name="C5" library="resistor" deviceset="C-US" device="C0603" value="4.7uF"/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
-<part name="C6" library="resistor" deviceset="C-US" device="C0805" value="10uF"/>
-<part name="C7" library="resistor" deviceset="C-US" device="C0805" value="1uF"/>
-<part name="C8" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C9" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C10" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C11" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C12" library="resistor" deviceset="C-US" device="C0805" value="0.01uF"/>
-<part name="C13" library="resistor" deviceset="C-US" device="C0805" value="10uF"/>
-<part name="C14" library="resistor" deviceset="C-US" device="C0805" value="1uF"/>
-<part name="C15" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C16" library="resistor" deviceset="C-US" device="C0805" value="0.01uF"/>
-<part name="C17" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C18" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C19" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C20" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C21" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
+<part name="C6" library="resistor" deviceset="C-US" device="C0603" value="10uF"/>
+<part name="C7" library="resistor" deviceset="C-US" device="C0603" value="1uF"/>
+<part name="C8" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C9" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C10" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C11" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C12" library="resistor" deviceset="C-US" device="C0603" value="0.01uF"/>
+<part name="C13" library="resistor" deviceset="C-US" device="C0603" value="10uF"/>
+<part name="C14" library="resistor" deviceset="C-US" device="C0603" value="1uF"/>
+<part name="C15" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C16" library="resistor" deviceset="C-US" device="C0603" value="0.01uF"/>
+<part name="C17" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C18" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C19" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C20" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C21" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
-<part name="C22" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="R9" library="resistor" deviceset="R-US_" device="M1206" value="2.2K"/>
-<part name="R10" library="resistor" deviceset="R-US_" device="M1206" value="10K"/>
-<part name="R11" library="resistor" deviceset="R-US_" device="M1206" value="10K"/>
-<part name="R12" library="resistor" deviceset="R-US_" device="M1206" value="10K"/>
-<part name="C23" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C24" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C25" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C26" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C27" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C28" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C29" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C30" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="C22" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="R9" library="resistor" deviceset="R-US_" device="R0603" value="2.2K"/>
+<part name="R10" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R11" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R12" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="C23" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C24" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C25" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C26" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C27" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C28" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C29" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C30" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
 <part name="D1" library="diode" deviceset="SCHOTTKY-DIODE" device="SMD" value="CDBU0520"/>
 <part name="U$2" library="iCE40HX-1k" deviceset="ICE40HX1K" device=""/>
-<part name="R13" library="resistor" deviceset="R-US_" device="M1206" value="10K"/>
-<part name="R14" library="resistor" deviceset="R-US_" device="M1206" value="0"/>
-<part name="R15" library="resistor" deviceset="R-US_" device="M1206" value="0"/>
-<part name="R16" library="resistor" deviceset="R-US_" device="M1206" value="100"/>
-<part name="C31" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C32" library="resistor" deviceset="C-US" device="C0805" value="10uF"/>
-<part name="R17" library="resistor" deviceset="R-US_" device="M1206" value="10K"/>
+<part name="R13" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R14" library="resistor" deviceset="R-US_" device="R0603" value="0"/>
+<part name="R15" library="resistor" deviceset="R-US_" device="R0603" value="0"/>
+<part name="R16" library="resistor" deviceset="R-US_" device="R0603" value="100"/>
+<part name="C31" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C32" library="resistor" deviceset="C-US" device="C0603" value="10uF"/>
+<part name="R17" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="SUPPLY13" library="supply2" deviceset="GND" device=""/>
-<part name="C33" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="R18" library="resistor" deviceset="R-US_" device="M1206" value="0"/>
-<part name="R19" library="resistor" deviceset="R-US_" device="M1206" value="10K"/>
+<part name="C33" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="R18" library="resistor" deviceset="R-US_" device="R0603" value="0"/>
+<part name="R19" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
-<part name="R20" library="resistor" deviceset="R-US_" device="M1206" value="0"/>
-<part name="R21" library="resistor" deviceset="R-US_" device="M1206" value="0"/>
-<part name="R22" library="resistor" deviceset="R-US_" device="M1206" value="0"/>
-<part name="R23" library="resistor" deviceset="R-US_" device="M1206" value="0"/>
-<part name="C34" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="R20" library="resistor" deviceset="R-US_" device="R0603" value="0"/>
+<part name="R21" library="resistor" deviceset="R-US_" device="R0603" value="0"/>
+<part name="R22" library="resistor" deviceset="R-US_" device="R0603" value="0"/>
+<part name="R23" library="resistor" deviceset="R-US_" device="R0603" value="0"/>
+<part name="C34" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="SUPPLY16" library="supply2" deviceset="GND" device=""/>
-<part name="R24" library="resistor" deviceset="R-US_" device="M1206" value="10K"/>
-<part name="R25" library="resistor" deviceset="R-US_" device="M1206" value="10K"/>
+<part name="R24" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R25" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="SUPPLY17" library="supply2" deviceset="GND" device=""/>
-<part name="R26" library="resistor" deviceset="R-US_" device="M1206" value="10K"/>
-<part name="R27" library="resistor" deviceset="R-US_" device="M1206" value="10K"/>
-<part name="C35" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C36" library="resistor" deviceset="C-US" device="C0805" value="4.7uF"/>
+<part name="R26" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R27" library="resistor" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="C35" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C36" library="resistor" deviceset="C-US" device="C0603" value="4.7uF"/>
 <part name="SUPPLY18" library="supply2" deviceset="GND" device=""/>
-<part name="C37" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C38" library="resistor" deviceset="C-US" device="C0805" value="4.7uF"/>
+<part name="C37" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C38" library="resistor" deviceset="C-US" device="C0603" value="4.7uF"/>
 <part name="SUPPLY19" library="supply2" deviceset="GND" device=""/>
-<part name="R28" library="resistor" deviceset="R-US_" device="M1206" value="2.2K"/>
-<part name="R29" library="resistor" deviceset="R-US_" device="M1206" value="12K"/>
-<part name="C39" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="C40" library="resistor" deviceset="C-US" device="C0805" value="10uF"/>
-<part name="R30" library="resistor" deviceset="R-US_" device="M1206" value="0"/>
-<part name="R31" library="resistor" deviceset="R-US_" device="M1206" value="0"/>
-<part name="R32" library="resistor" deviceset="R-US_" device="M1206" value="0"/>
-<part name="R33" library="resistor" deviceset="R-US_" device="M1206" value="0"/>
-<part name="R34" library="resistor" deviceset="R-US_" device="M1206" value="0"/>
-<part name="R35" library="resistor" deviceset="R-US_" device="M1206" value="0"/>
-<part name="R36" library="resistor" deviceset="R-US_" device="M1206" value="0"/>
+<part name="R28" library="resistor" deviceset="R-US_" device="R0603" value="2.2K"/>
+<part name="R29" library="resistor" deviceset="R-US_" device="R0603" value="12K"/>
+<part name="C39" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C40" library="resistor" deviceset="C-US" device="C0603" value="10uF"/>
+<part name="R30" library="resistor" deviceset="R-US_" device="R0603" value="0"/>
+<part name="R31" library="resistor" deviceset="R-US_" device="R0603" value="0"/>
+<part name="R32" library="resistor" deviceset="R-US_" device="R0603" value="0"/>
+<part name="R33" library="resistor" deviceset="R-US_" device="R0603" value="0"/>
+<part name="R34" library="resistor" deviceset="R-US_" device="R0603" value="0"/>
+<part name="R35" library="resistor" deviceset="R-US_" device="R0603" value="0"/>
+<part name="R36" library="resistor" deviceset="R-US_" device="R0603" value="0"/>
 <part name="U2" library="Atmel_By_element14_Batch_1-00" deviceset="ATSAM3S4AA-AU" device=""/>
 <part name="U$6" library="USBC" deviceset="DX07S0" device=""/>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY20" library="supply2" deviceset="GND" device=""/>
-<part name="R37" library="resistor" deviceset="R-US_" device="M1206" value="100"/>
+<part name="R37" library="resistor" deviceset="R-US_" device="R0603" value="100"/>
 <part name="LED1" library="led" deviceset="LED" device="SMT1206" value="Green"/>
 <part name="LED2" library="led" deviceset="LED" device="SMT1206" value="Green"/>
 <part name="LED3" library="led" deviceset="LED" device="SMT1206" value="Green"/>
 <part name="LED4" library="led" deviceset="LED" device="SMT1206" value="Green"/>
-<part name="R38" library="resistor" deviceset="R-US_" device="M1206" value="100"/>
-<part name="R39" library="resistor" deviceset="R-US_" device="M1206" value="100"/>
-<part name="R40" library="resistor" deviceset="R-US_" device="M1206" value="100"/>
+<part name="R38" library="resistor" deviceset="R-US_" device="R0603" value="100"/>
+<part name="R39" library="resistor" deviceset="R-US_" device="R0603" value="100"/>
+<part name="R40" library="resistor" deviceset="R-US_" device="R0603" value="100"/>
 <part name="SUPPLY21" library="supply2" deviceset="GND" device=""/>
 <part name="LED5" library="led" deviceset="LED" device="SMT1206" value="Amber"/>
 <part name="LED6" library="led" deviceset="LED" device="SMT1206" value="Amber"/>
-<part name="R41" library="resistor" deviceset="R-US_" device="M1206" value="100"/>
-<part name="R42" library="resistor" deviceset="R-US_" device="M1206" value="100"/>
+<part name="R41" library="resistor" deviceset="R-US_" device="R0603" value="100"/>
+<part name="R42" library="resistor" deviceset="R-US_" device="R0603" value="100"/>
 <part name="SUPPLY22" library="supply2" deviceset="GND" device=""/>
 <part name="LED7" library="led" deviceset="LED" device="SMT1206" value="Red"/>
 <part name="LED8" library="led" deviceset="LED" device="SMT1206" value="Red"/>
-<part name="R43" library="resistor" deviceset="R-US_" device="M1206" value="25"/>
-<part name="R44" library="resistor" deviceset="R-US_" device="M1206" value="100"/>
+<part name="R43" library="resistor" deviceset="R-US_" device="R0603" value="25"/>
+<part name="R44" library="resistor" deviceset="R-US_" device="R0603" value="100"/>
 <part name="SUPPLY23" library="supply2" deviceset="GND" device=""/>
 <part name="U$7" library="crystal" deviceset="SG-636PCE" device=""/>
 <part name="SUPPLY24" library="supply2" deviceset="GND" device=""/>
-<part name="C41" library="resistor" deviceset="C-US" device="C0805" value="0.1uF"/>
-<part name="R45" library="resistor" deviceset="R-US_" device="M1206" value="100"/>
+<part name="C41" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="R45" library="resistor" deviceset="R-US_" device="R0603" value="100"/>
+<part name="C42" library="resistor" deviceset="C-US" device="C0603" value="10uF"/>
+<part name="SUPPLY25" library="supply2" deviceset="GND" device=""/>
+<part name="SUPPLY26" library="supply2" deviceset="GND" device=""/>
+<part name="C43" library="resistor" deviceset="C-US" device="C0603" value="2.2uF"/>
+<part name="C44" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C45" library="resistor" deviceset="C-US" device="C0603" value="10uF"/>
+<part name="SUPPLY9" library="supply2" deviceset="GND" device=""/>
+<part name="C47" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C46" library="resistor" deviceset="C-US" device="C0603" value="10uF"/>
+<part name="C48" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -9780,6 +9789,8 @@ cap and power pin stuff</text>
 <text x="368.3" y="195.58" size="1.778" layer="91">MCU LEDs</text>
 <text x="27.94" y="256.54" size="1.778" layer="91">12 MHz clock</text>
 <text x="73.66" y="7.62" size="1.778" layer="91">Flash for FPGA</text>
+<text x="314.96" y="116.84" size="1.778" layer="91" rot="R90">For Vin</text>
+<text x="335.28" y="124.46" size="1.778" layer="91" rot="R270">For Vout</text>
 </plain>
 <instances>
 <instance part="SUPPLY1" gate="GND" x="302.26" y="17.78"/>
@@ -9853,7 +9864,6 @@ cap and power pin stuff</text>
 <instance part="C19" gate="G$1" x="-104.14" y="152.4"/>
 <instance part="C20" gate="G$1" x="-93.98" y="152.4"/>
 <instance part="C21" gate="G$1" x="-83.82" y="152.4"/>
-<instance part="SUPPLY9" gate="GND" x="248.92" y="243.84"/>
 <instance part="SUPPLY10" gate="GND" x="33.02" y="279.4"/>
 <instance part="SUPPLY11" gate="GND" x="-104.14" y="139.7"/>
 <instance part="C22" gate="G$1" x="-93.98" y="93.98"/>
@@ -10077,6 +10087,16 @@ cap and power pin stuff</text>
 <attribute name="NAME" x="55.626" y="260.35" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="56.642" y="257.81" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="C42" gate="G$1" x="317.5" y="121.92"/>
+<instance part="SUPPLY25" gate="GND" x="248.92" y="243.84"/>
+<instance part="SUPPLY26" gate="GND" x="330.2" y="106.68"/>
+<instance part="C43" gate="G$1" x="340.36" y="121.92"/>
+<instance part="C44" gate="G$1" x="350.52" y="121.92"/>
+<instance part="C45" gate="G$1" x="383.54" y="121.92"/>
+<instance part="SUPPLY9" gate="GND" x="391.16" y="106.68"/>
+<instance part="C47" gate="G$1" x="398.78" y="121.92"/>
+<instance part="C46" gate="G$1" x="373.38" y="121.92"/>
+<instance part="C48" gate="G$1" x="411.48" y="121.92"/>
 </instances>
 <busses>
 </busses>
@@ -10213,7 +10233,7 @@ cap and power pin stuff</text>
 <wire x1="228.6" y1="251.46" x2="228.6" y2="248.92" width="0.1524" layer="91"/>
 <junction x="228.6" y="248.92"/>
 <wire x1="248.92" y1="248.92" x2="248.92" y2="246.38" width="0.1524" layer="91"/>
-<pinref part="SUPPLY9" gate="GND" pin="GND"/>
+<pinref part="SUPPLY25" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C16" gate="G$1" pin="2"/>
@@ -10436,6 +10456,40 @@ cap and power pin stuff</text>
 <pinref part="SUPPLY24" gate="GND" pin="GND"/>
 <pinref part="C41" gate="G$1" pin="2"/>
 <junction x="15.24" y="238.76"/>
+</segment>
+<segment>
+<wire x1="340.36" y1="114.3" x2="340.36" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="SUPPLY26" gate="GND" pin="GND"/>
+<pinref part="C43" gate="G$1" pin="2"/>
+<pinref part="C44" gate="G$1" pin="2"/>
+<wire x1="350.52" y1="116.84" x2="350.52" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="114.3" x2="340.36" y2="114.3" width="0.1524" layer="91"/>
+<junction x="340.36" y="114.3"/>
+<pinref part="C42" gate="G$1" pin="2"/>
+<wire x1="317.5" y1="116.84" x2="317.5" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="114.3" x2="330.2" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="114.3" x2="340.36" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="109.22" x2="330.2" y2="114.3" width="0.1524" layer="91"/>
+<junction x="330.2" y="114.3"/>
+</segment>
+<segment>
+<pinref part="SUPPLY9" gate="GND" pin="GND"/>
+<pinref part="C47" gate="G$1" pin="2"/>
+<wire x1="398.78" y1="116.84" x2="398.78" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="C45" gate="G$1" pin="2"/>
+<wire x1="383.54" y1="116.84" x2="383.54" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="383.54" y1="114.3" x2="391.16" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="391.16" y1="114.3" x2="398.78" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="391.16" y1="109.22" x2="391.16" y2="114.3" width="0.1524" layer="91"/>
+<junction x="391.16" y="114.3"/>
+<pinref part="C48" gate="G$1" pin="2"/>
+<wire x1="398.78" y1="114.3" x2="411.48" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="411.48" y1="114.3" x2="411.48" y2="116.84" width="0.1524" layer="91"/>
+<junction x="398.78" y="114.3"/>
+<pinref part="C46" gate="G$1" pin="2"/>
+<wire x1="383.54" y1="114.3" x2="373.38" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="114.3" x2="373.38" y2="116.84" width="0.1524" layer="91"/>
+<junction x="383.54" y="114.3"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -11572,6 +11626,40 @@ cap and power pin stuff</text>
 <wire x1="289.56" y1="83.82" x2="289.56" y2="88.9" width="0.1524" layer="91"/>
 <label x="287.02" y="88.9" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="C42" gate="G$1" pin="1"/>
+<wire x1="317.5" y1="124.46" x2="317.5" y2="127" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="127" x2="330.2" y2="127" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="127" x2="340.36" y2="127" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="127" x2="340.36" y2="124.46" width="0.1524" layer="91"/>
+<label x="332.74" y="137.16" size="1.778" layer="95" rot="R180"/>
+<pinref part="C43" gate="G$1" pin="1"/>
+<pinref part="C44" gate="G$1" pin="1"/>
+<wire x1="340.36" y1="127" x2="350.52" y2="127" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="127" x2="350.52" y2="124.46" width="0.1524" layer="91"/>
+<junction x="340.36" y="127"/>
+<wire x1="330.2" y1="127" x2="330.2" y2="134.62" width="0.1524" layer="91"/>
+<junction x="330.2" y="127"/>
+</segment>
+<segment>
+<pinref part="C45" gate="G$1" pin="1"/>
+<wire x1="383.54" y1="124.46" x2="383.54" y2="127" width="0.1524" layer="91"/>
+<wire x1="383.54" y1="127" x2="391.16" y2="127" width="0.1524" layer="91"/>
+<label x="393.7" y="137.16" size="1.778" layer="95" rot="R180"/>
+<pinref part="C47" gate="G$1" pin="1"/>
+<wire x1="391.16" y1="127" x2="398.78" y2="127" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="127" x2="398.78" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="391.16" y1="127" x2="391.16" y2="134.62" width="0.1524" layer="91"/>
+<junction x="391.16" y="127"/>
+<pinref part="C48" gate="G$1" pin="1"/>
+<wire x1="398.78" y1="127" x2="411.48" y2="127" width="0.1524" layer="91"/>
+<wire x1="411.48" y1="127" x2="411.48" y2="124.46" width="0.1524" layer="91"/>
+<junction x="398.78" y="127"/>
+<pinref part="C46" gate="G$1" pin="1"/>
+<wire x1="383.54" y1="127" x2="373.38" y2="127" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="127" x2="373.38" y2="124.46" width="0.1524" layer="91"/>
+<junction x="383.54" y="127"/>
+</segment>
 </net>
 <net name="N$39" class="0">
 <segment>
@@ -11590,14 +11678,15 @@ cap and power pin stuff</text>
 </net>
 <net name="N$40" class="0">
 <segment>
-<pinref part="U2" gate="A" pin="PA3"/>
-<wire x1="393.7" y1="78.74" x2="408.94" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$41" class="0">
-<segment>
-<pinref part="U2" gate="A" pin="PA4/PGMNCMD"/>
-<wire x1="393.7" y1="76.2" x2="408.94" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="U2" gate="A" pin="VDDOUT"/>
+<wire x1="307.34" y1="76.2" x2="297.18" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="76.2" x2="297.18" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="U2" gate="A" pin="VDDCORE"/>
+<wire x1="297.18" y1="88.9" x2="307.34" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="U2" gate="A" pin="VDDCORE_2"/>
+<wire x1="297.18" y1="88.9" x2="297.18" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="91.44" x2="307.34" y2="91.44" width="0.1524" layer="91"/>
+<junction x="297.18" y="88.9"/>
 </segment>
 </net>
 </nets>
