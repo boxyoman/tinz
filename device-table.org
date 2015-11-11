@@ -21,6 +21,7 @@
 | Resistor               | MCR18ERTF3573        | RHM357KCJCT-ND      | SMD 1206     | 0.25W Surface Mount     | 357k  |      1 |
 | Resistor               | ESR03EZPJ105         | RHM1MDCT-ND         | SMD 0603     | 0.25W Surface Mount     | 1M    |      2 |
 |------------------------+----------------------+---------------------+--------------+-------------------------+-------+--------|
+| Capacitor              | CC0603JRNPO9BN56     | 311-1066-1-ND       | SMD 0603     | Surface Mount Cap       | 56pF  |      2 |
 | Capacitor              | CC0603KRX7R9BB103    | 311-1085-1-ND       | SMD 0603     | Surface Mount Cap       | 0.01u |      4 |
 | Capacitor              | CC0603ZRY5V9BB104    | 311-1343-1-ND       | SMD 0603     | Surface Mount Cap       | 0.1u  |     24 |
 | Capacitor              | CC0603KRX5R8BB105    | 311-1445-1-ND       | SMD 0603     | Surface Mount Cap       | 1u    |      2 |
