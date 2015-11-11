@@ -9793,8 +9793,8 @@ cap and power pin stuff</text>
 <text x="368.3" y="195.58" size="1.778" layer="91">MCU LEDs</text>
 <text x="27.94" y="256.54" size="1.778" layer="91">12 MHz clock</text>
 <text x="73.66" y="7.62" size="1.778" layer="91">Flash for FPGA</text>
-<text x="314.96" y="116.84" size="1.778" layer="91" rot="R90">For Vin</text>
-<text x="335.28" y="124.46" size="1.778" layer="91" rot="R270">For Vout</text>
+<text x="314.96" y="116.84" size="1.778" layer="91" rot="R90">For VDDin</text>
+<text x="340.36" y="127" size="1.778" layer="91">For VDDout</text>
 </plain>
 <instances>
 <instance part="SUPPLY1" gate="GND" x="302.26" y="17.78"/>
