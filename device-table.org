@@ -24,7 +24,7 @@
 | Capacitor              | CC0603KRX7R9BB103    | 311-1085-1-ND       | SMD 0603     | Surface Mount Cap       | 0.01u |      4 |
 | Capacitor              | CC0603ZRY5V9BB104    | 311-1343-1-ND       | SMD 0603     | Surface Mount Cap       | 0.1u  |     24 |
 | Capacitor              | CC0603KRX5R8BB105    | 311-1445-1-ND       | SMD 0603     | Surface Mount Cap       | 1u    |      2 |
-| Capacitor              | C0805                | 311-1146-1-ND       | SMD          | CL21F106ZPFNNNE         | 2.2u  |      1 |
+| Capacitor              | CC0603KRX5R6BB225    | 311-1451-1-ND       | SMD 0603     | Surface Mount Cap       | 2.2u  |      1 |
 | Capacitor              | CC0603KRX5R6BB475    | 311-1455-1-ND       | SMD 0603     | Surface Mount Cap       | 4.7u  |      3 |
 | Capacitor              | CC0603MRX5R5BB106    | 311-1448-1-ND       | SMD 0603     | Surface Mount Cap       | 10u   |      6 |
 |------------------------+----------------------+---------------------+--------------+-------------------------+-------+--------|
