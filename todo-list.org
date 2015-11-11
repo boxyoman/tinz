@@ -1,0 +1,21 @@
+* TODO Order Parts [0/2]
+  + [ ] Finish parts list
+  + [ ] Contact Almasy
+
+* TODO Finish Board Design [0/2]
+  + [ ] Finish schematic
+  + [ ] Design PCB
+
+* TODO Make Board [0/3]
+  + [ ] Order PCB
+  + [ ] Get Qortek okay
+  + [ ] Solder!
+
+* TODO Test First Design [0/3]
+  + [ ] Program EEPROM
+  + [ ] Test FPGA
+  + [ ] Test MCU
+
+(if (board-works)
+    (gloat)
+    (cry-and-try-again))
