@@ -16,6 +16,7 @@
   + [ ] Test FPGA
   + [ ] Test MCU
 
-(if (board-works)
-    (gloat)
-    (cry-and-try-again))
+(defun tinz-project (jon kevin)
+  (if (board-works)
+      (gloat)
+    (tinz-project)))
