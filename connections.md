@@ -8,8 +8,6 @@ note: these are liable to change as we get into the PCB design.
 | PA13    | MOSI        | SPI       | 47       |
 | PA14    | SPCK        | SPI       | 49       |
 | PA11    | SPI_NPCS0   | SPI       | 45       |
-| PA31    | SPI_NPCS1   | SPI       | 44       |
-| PA30    | SPI_NPCS2   | SPI       | 43       |
 |---------+-------------+-----------+----------|
 | PB3     | URXD1       | UART      | 9        |
 | PB2     | UTXD1       | UART      | 8        |
