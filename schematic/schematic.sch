@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10929,6 +10929,7 @@ cap and power pin stuff</text>
 <text x="73.66" y="7.62" size="1.778" layer="91">Flash for FPGA</text>
 <text x="314.96" y="116.84" size="1.778" layer="91" rot="R90">For VDDin</text>
 <text x="340.36" y="127" size="1.778" layer="91">For VDDout</text>
+<text x="429.26" y="40.64" size="1.778" layer="91">AD still need connected to external pins</text>
 </plain>
 <instances>
 <instance part="SUPPLY1" gate="GND" x="302.26" y="17.78"/>
@@ -13046,6 +13047,132 @@ cap and power pin stuff</text>
 <wire x1="426.72" y1="76.2" x2="393.7" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="426.72" y1="76.2" x2="436.88" y2="76.2" width="0.1524" layer="91"/>
 <junction x="426.72" y="76.2"/>
+</segment>
+</net>
+<net name="AD4" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PB0/AD4"/>
+<wire x1="307.34" y1="55.88" x2="297.18" y2="55.88" width="0.1524" layer="91"/>
+<label x="297.18" y="55.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AD5" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PB1/AD5"/>
+<wire x1="307.34" y1="53.34" x2="297.18" y2="53.34" width="0.1524" layer="91"/>
+<label x="297.18" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AD0" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PA17/PGMD5/AD0"/>
+<wire x1="393.7" y1="43.18" x2="414.02" y2="43.18" width="0.1524" layer="91"/>
+<label x="408.94" y="43.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AD1" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PA18/PGMD6/AD1"/>
+<wire x1="393.7" y1="40.64" x2="414.02" y2="40.64" width="0.1524" layer="91"/>
+<label x="408.94" y="40.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AD2" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PA19/PGMD7/AD2"/>
+<wire x1="393.7" y1="38.1" x2="414.02" y2="38.1" width="0.1524" layer="91"/>
+<label x="408.94" y="38.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="AD3" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PA20/AD3"/>
+<wire x1="393.7" y1="35.56" x2="414.02" y2="35.56" width="0.1524" layer="91"/>
+<label x="408.94" y="35.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPIO0" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PA0/PGMEN0"/>
+<wire x1="393.7" y1="86.36" x2="406.4" y2="86.36" width="0.1524" layer="91"/>
+<label x="398.78" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="PIO3_11/DP04B"/>
+<wire x1="233.68" y1="7.62" x2="246.38" y2="7.62" width="0.1524" layer="91"/>
+<label x="238.76" y="7.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPIO1" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PA1/PGMEN1"/>
+<wire x1="393.7" y1="83.82" x2="406.4" y2="83.82" width="0.1524" layer="91"/>
+<label x="398.78" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="PIO3_12/DP07A"/>
+<wire x1="233.68" y1="5.08" x2="246.38" y2="5.08" width="0.1524" layer="91"/>
+<label x="238.76" y="5.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPIO2" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PA2/PGMEN2"/>
+<wire x1="393.7" y1="81.28" x2="406.4" y2="81.28" width="0.1524" layer="91"/>
+<label x="398.78" y="81.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="GBIN7/PIO3_01/DP07B"/>
+<wire x1="233.68" y1="33.02" x2="246.38" y2="33.02" width="0.1524" layer="91"/>
+<label x="238.76" y="33.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPIO3" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PA6/PGMNOE"/>
+<wire x1="393.7" y1="71.12" x2="408.94" y2="71.12" width="0.1524" layer="91"/>
+<label x="401.32" y="71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="GBIN6/PIO3_00/DP08A"/>
+<wire x1="233.68" y1="35.56" x2="246.38" y2="35.56" width="0.1524" layer="91"/>
+<label x="238.76" y="35.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPIO4" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PA8/XOUT32/PGMM0"/>
+<wire x1="393.7" y1="66.04" x2="408.94" y2="66.04" width="0.1524" layer="91"/>
+<label x="401.32" y="66.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="PIO3_13/DP08B"/>
+<wire x1="233.68" y1="2.54" x2="246.38" y2="2.54" width="0.1524" layer="91"/>
+<label x="238.76" y="2.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPIO5" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PA15/PGMD3"/>
+<wire x1="393.7" y1="48.26" x2="414.02" y2="48.26" width="0.1524" layer="91"/>
+<label x="406.4" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="PIO3_14/DP09A"/>
+<wire x1="233.68" y1="0" x2="246.38" y2="0" width="0.1524" layer="91"/>
+<label x="238.76" y="0" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPIO6" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PA16/PGMD4"/>
+<wire x1="393.7" y1="45.72" x2="414.02" y2="45.72" width="0.1524" layer="91"/>
+<label x="406.4" y="45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="PIO3_15/DP09B"/>
+<wire x1="233.68" y1="-2.54" x2="246.38" y2="-2.54" width="0.1524" layer="91"/>
+<label x="238.76" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
