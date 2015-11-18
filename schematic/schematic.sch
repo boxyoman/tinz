@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -10929,7 +10929,7 @@ cap and power pin stuff</text>
 <text x="73.66" y="7.62" size="1.778" layer="91">Flash for FPGA</text>
 <text x="314.96" y="116.84" size="1.778" layer="91" rot="R90">For VDDin</text>
 <text x="340.36" y="127" size="1.778" layer="91">For VDDout</text>
-<text x="429.26" y="40.64" size="1.778" layer="91">AD still need connected to external pins</text>
+<text x="429.26" y="40.64" size="1.778" layer="91">ADx and ADVREF still need connected to external pins</text>
 </plain>
 <instances>
 <instance part="SUPPLY1" gate="GND" x="302.26" y="17.78"/>
@@ -12884,6 +12884,7 @@ cap and power pin stuff</text>
 <segment>
 <pinref part="U$2" gate="G$1" pin="GBIN0/PIO0_00"/>
 <wire x1="233.68" y1="223.52" x2="246.38" y2="223.52" width="0.1524" layer="91"/>
+<label x="238.76" y="223.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -13183,6 +13184,13 @@ cap and power pin stuff</text>
 <pinref part="U$2" gate="G$1" pin="PIO3_15/DP09B"/>
 <wire x1="233.68" y1="-2.54" x2="246.38" y2="-2.54" width="0.1524" layer="91"/>
 <label x="238.76" y="-2.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ADVREF" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="ADVREF"/>
+<wire x1="307.34" y1="68.58" x2="297.18" y2="68.58" width="0.1524" layer="91"/>
+<label x="297.18" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
