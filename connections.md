@@ -12,7 +12,7 @@ note: these are liable to change as we get into the PCB design.
 | PB3     | URXD1       | UART      | 9        |
 | PB2     | UTXD1       | UART      | 8        |
 |---------+-------------+-----------+----------|
-| PA4     | TWCK0       | TWI (I2C) | 21       |
-| PA3     | TWD0        | TWI (I2C) | 22       |
+| PA4     | TWCK0       | TWI (I2C) | 3        |
+| PA3     | TWD0        | TWI (I2C) | 2        |
 |---------+-------------+-----------+----------|
 

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -12881,6 +12881,10 @@ cap and power pin stuff</text>
 <wire x1="48.26" y1="243.84" x2="58.42" y2="243.84" width="0.1524" layer="91"/>
 <label x="55.88" y="243.84" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="GBIN0/PIO0_00"/>
+<wire x1="233.68" y1="223.52" x2="246.38" y2="223.52" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$40" class="0">
 <segment>
@@ -12999,18 +13003,28 @@ cap and power pin stuff</text>
 <label x="297.18" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="IO1" class="0">
+<net name="GPIO7" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="DDM/PB10"/>
 <wire x1="307.34" y1="33.02" x2="297.18" y2="33.02" width="0.1524" layer="91"/>
 <label x="297.18" y="33.02" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="PIO3_16/DP10A"/>
+<wire x1="233.68" y1="-5.08" x2="246.38" y2="-5.08" width="0.1524" layer="91"/>
+<label x="238.76" y="-5.08" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="IO2" class="0">
+<net name="GPIO8" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="DDP/PB11"/>
 <wire x1="393.7" y1="30.48" x2="408.94" y2="30.48" width="0.1524" layer="91"/>
-<label x="403.86" y="30.48" size="1.778" layer="95"/>
+<label x="401.32" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="PIO3_17/DP10B"/>
+<wire x1="233.68" y1="-7.62" x2="246.38" y2="-7.62" width="0.1524" layer="91"/>
+<label x="238.76" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TWD0" class="0">
@@ -13023,6 +13037,11 @@ cap and power pin stuff</text>
 <wire x1="419.1" y1="78.74" x2="436.88" y2="78.74" width="0.1524" layer="91"/>
 <junction x="419.1" y="78.74"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="PIO3_03/DP00B"/>
+<wire x1="233.68" y1="27.94" x2="246.38" y2="27.94" width="0.1524" layer="91"/>
+<label x="238.76" y="27.94" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="TWCK0" class="0">
 <segment>
@@ -13033,6 +13052,11 @@ cap and power pin stuff</text>
 <wire x1="426.72" y1="76.2" x2="393.7" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="426.72" y1="76.2" x2="436.88" y2="76.2" width="0.1524" layer="91"/>
 <junction x="426.72" y="76.2"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="PIO3_04/DP01A"/>
+<wire x1="233.68" y1="25.4" x2="246.38" y2="25.4" width="0.1524" layer="91"/>
+<label x="238.76" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AD4" class="0">
