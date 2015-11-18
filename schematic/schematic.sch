@@ -12898,6 +12898,10 @@ cap and power pin stuff</text>
 <wire x1="297.18" y1="88.9" x2="297.18" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="91.44" x2="307.34" y2="91.44" width="0.1524" layer="91"/>
 <junction x="297.18" y="88.9"/>
+<pinref part="U2" gate="A" pin="VDDPLL"/>
+<wire x1="297.18" y1="76.2" x2="297.18" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="73.66" x2="307.34" y2="73.66" width="0.1524" layer="91"/>
+<junction x="297.18" y="76.2"/>
 </segment>
 </net>
 <net name="XIN" class="0">
