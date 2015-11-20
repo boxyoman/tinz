@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -12055,11 +12055,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <part name="C40" library="resistor" deviceset="C-US" device="C0603" value="10uF"/>
 <part name="R30" library="resistor" deviceset="R-US_" device="R0603" value="0"/>
 <part name="R31" library="resistor" deviceset="R-US_" device="R0603" value="0"/>
-<part name="R32" library="resistor" deviceset="R-US_" device="R0603" value="0"/>
-<part name="R33" library="resistor" deviceset="R-US_" device="R0603" value="0"/>
 <part name="R34" library="resistor" deviceset="R-US_" device="R0603" value="0"/>
-<part name="R35" library="resistor" deviceset="R-US_" device="R0603" value="0"/>
-<part name="R36" library="resistor" deviceset="R-US_" device="R0603" value="0"/>
 <part name="U2" library="Atmel_By_element14_Batch_1-00" deviceset="ATSAM3S4AA-AU" device=""/>
 <part name="U$6" library="USBC" deviceset="DX07S0" device=""/>
 <part name="SUPPLY14" library="supply2" deviceset="GND" device=""/>
@@ -12135,7 +12131,7 @@ cap and power pin stuff</text>
 <text x="27.94" y="256.54" size="1.778" layer="91">12 MHz clock</text>
 <text x="73.66" y="7.62" size="1.778" layer="91">Flash for FPGA</text>
 <text x="314.96" y="116.84" size="1.778" layer="91" rot="R90">For VDDin</text>
-<text x="340.36" y="127" size="1.778" layer="91">For VDDout</text>
+<text x="358.14" y="134.62" size="1.778" layer="91">For VDDout</text>
 <text x="429.26" y="40.64" size="1.778" layer="91">ADx and ADVREF still need connected to external pins</text>
 <text x="448.818" y="295.91" size="1.778" layer="91">IO A</text>
 <text x="448.818" y="270.51" size="1.778" layer="91">IO B</text>
@@ -12339,25 +12335,9 @@ cap and power pin stuff</text>
 <attribute name="NAME" x="104.14" y="106.934" size="1.778" layer="95"/>
 <attribute name="VALUE" x="114.554" y="106.934" size="1.778" layer="96"/>
 </instance>
-<instance part="R32" gate="G$1" x="111.76" y="104.14" smashed="yes" rot="R180">
-<attribute name="NAME" x="104.14" y="104.394" size="1.778" layer="95"/>
-<attribute name="VALUE" x="114.554" y="104.394" size="1.778" layer="96"/>
-</instance>
-<instance part="R33" gate="G$1" x="111.76" y="101.6" smashed="yes" rot="R180">
-<attribute name="NAME" x="104.14" y="101.854" size="1.778" layer="95"/>
-<attribute name="VALUE" x="114.554" y="101.854" size="1.778" layer="96"/>
-</instance>
 <instance part="R34" gate="G$1" x="111.76" y="99.06" smashed="yes" rot="R180">
 <attribute name="NAME" x="104.14" y="99.314" size="1.778" layer="95"/>
 <attribute name="VALUE" x="114.554" y="99.314" size="1.778" layer="96"/>
-</instance>
-<instance part="R35" gate="G$1" x="111.76" y="96.52" smashed="yes" rot="R180">
-<attribute name="NAME" x="104.14" y="96.774" size="1.778" layer="95"/>
-<attribute name="VALUE" x="114.554" y="96.774" size="1.778" layer="96"/>
-</instance>
-<instance part="R36" gate="G$1" x="111.76" y="93.98" smashed="yes" rot="R180">
-<attribute name="NAME" x="104.14" y="94.234" size="1.778" layer="95"/>
-<attribute name="VALUE" x="114.554" y="94.234" size="1.778" layer="96"/>
 </instance>
 <instance part="U2" gate="A" x="350.52" y="60.96"/>
 <instance part="U$6" gate="G$1" x="-81.28" y="40.64"/>
@@ -13797,51 +13777,11 @@ cap and power pin stuff</text>
 <wire x1="101.6" y1="106.68" x2="106.68" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="R32" gate="G$1" pin="2"/>
-<pinref part="U$1" gate="G$1" pin="BDBUS2"/>
-<wire x1="106.68" y1="104.14" x2="101.6" y2="104.14" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="BDBUS3"/>
-<pinref part="R33" gate="G$1" pin="2"/>
-<wire x1="101.6" y1="101.6" x2="106.68" y2="101.6" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$28" class="0">
 <segment>
 <pinref part="R34" gate="G$1" pin="2"/>
 <pinref part="U$1" gate="G$1" pin="BDBUS4"/>
 <wire x1="106.68" y1="99.06" x2="101.6" y2="99.06" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="BDBUS5"/>
-<pinref part="R35" gate="G$1" pin="2"/>
-<wire x1="101.6" y1="96.52" x2="106.68" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$30" class="0">
-<segment>
-<pinref part="R36" gate="G$1" pin="2"/>
-<pinref part="U$1" gate="G$1" pin="BDBUS6"/>
-<wire x1="106.68" y1="93.98" x2="101.6" y2="93.98" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="RTSN" class="0">
-<segment>
-<pinref part="R32" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="104.14" x2="121.92" y2="104.14" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="CTSN" class="0">
-<segment>
-<pinref part="R33" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="101.6" x2="121.92" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DTRN" class="0">
@@ -13854,18 +13794,6 @@ cap and power pin stuff</text>
 <pinref part="U2" gate="A" pin="ERASE/PB12"/>
 <wire x1="393.7" y1="27.94" x2="408.94" y2="27.94" width="0.1524" layer="91"/>
 <label x="401.32" y="27.94" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="DSRN" class="0">
-<segment>
-<pinref part="R35" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="96.52" x2="121.92" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="DCDN" class="0">
-<segment>
-<pinref part="R36" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="93.98" x2="121.92" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DM" class="0">
@@ -14094,18 +14022,8 @@ cap and power pin stuff</text>
 </segment>
 <segment>
 <pinref part="C42" gate="G$1" pin="1"/>
-<wire x1="317.5" y1="124.46" x2="317.5" y2="127" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="127" x2="330.2" y2="127" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="127" x2="340.36" y2="127" width="0.1524" layer="91"/>
-<wire x1="340.36" y1="127" x2="340.36" y2="124.46" width="0.1524" layer="91"/>
-<label x="332.74" y="137.16" size="1.778" layer="95" rot="R180"/>
-<pinref part="C43" gate="G$1" pin="1"/>
-<pinref part="C44" gate="G$1" pin="1"/>
-<wire x1="340.36" y1="127" x2="350.52" y2="127" width="0.1524" layer="91"/>
-<wire x1="350.52" y1="127" x2="350.52" y2="124.46" width="0.1524" layer="91"/>
-<junction x="340.36" y="127"/>
-<wire x1="330.2" y1="127" x2="330.2" y2="134.62" width="0.1524" layer="91"/>
-<junction x="330.2" y="127"/>
+<label x="320.04" y="137.16" size="1.778" layer="95" rot="R180"/>
+<wire x1="317.5" y1="124.46" x2="317.5" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C45" gate="G$1" pin="1"/>
@@ -14176,7 +14094,7 @@ cap and power pin stuff</text>
 <label x="256.54" y="223.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$40" class="0">
+<net name="VDDOUT" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="VDDOUT"/>
 <wire x1="307.34" y1="76.2" x2="297.18" y2="76.2" width="0.1524" layer="91"/>
@@ -14191,6 +14109,20 @@ cap and power pin stuff</text>
 <wire x1="297.18" y1="76.2" x2="297.18" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="73.66" x2="307.34" y2="73.66" width="0.1524" layer="91"/>
 <junction x="297.18" y="76.2"/>
+<label x="297.18" y="96.52" size="1.778" layer="95"/>
+<wire x1="297.18" y1="91.44" x2="297.18" y2="96.52" width="0.1524" layer="91"/>
+<junction x="297.18" y="91.44"/>
+</segment>
+<segment>
+<pinref part="C43" gate="G$1" pin="1"/>
+<wire x1="340.36" y1="124.46" x2="340.36" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="129.54" x2="345.44" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="C44" gate="G$1" pin="1"/>
+<wire x1="345.44" y1="129.54" x2="350.52" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="129.54" x2="350.52" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="129.54" x2="345.44" y2="132.08" width="0.1524" layer="91"/>
+<junction x="345.44" y="129.54"/>
+<label x="342.9" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="XIN" class="0">
