@@ -4,7 +4,7 @@
 *.s#?
 *.b#?
 *.l#?
-*.*~
+
 
 # Eagle project file
 # It contains a serial number and references to the file structure
@@ -38,3 +38,6 @@ eagle.epf
 
 #vim
 *.swp
+
+#emacs
+*.*~
