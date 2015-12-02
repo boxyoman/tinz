@@ -13892,9 +13892,9 @@ cap and power pin stuff</text>
 <label x="408.94" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="G$1" pin="1"/>
-<wire x1="444.5" y1="213.36" x2="434.34" y2="213.36" width="0.1524" layer="91"/>
-<label x="431.8" y="213.36" size="1.778" layer="95"/>
+<pinref part="JP4" gate="G$1" pin="2"/>
+<wire x1="444.5" y1="210.82" x2="434.34" y2="210.82" width="0.1524" layer="91"/>
+<label x="431.8" y="210.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AD1" class="0">
@@ -13904,9 +13904,9 @@ cap and power pin stuff</text>
 <label x="408.94" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP5" gate="G$1" pin="1"/>
-<wire x1="444.5" y1="185.42" x2="434.34" y2="185.42" width="0.1524" layer="91"/>
-<label x="431.8" y="185.42" size="1.778" layer="95"/>
+<pinref part="JP5" gate="G$1" pin="2"/>
+<wire x1="444.5" y1="182.88" x2="434.34" y2="182.88" width="0.1524" layer="91"/>
+<label x="431.8" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AD2" class="0">
@@ -13916,9 +13916,9 @@ cap and power pin stuff</text>
 <label x="408.94" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP4" gate="G$1" pin="2"/>
-<wire x1="444.5" y1="210.82" x2="434.34" y2="210.82" width="0.1524" layer="91"/>
-<label x="431.8" y="210.82" size="1.778" layer="95"/>
+<pinref part="JP4" gate="G$1" pin="1"/>
+<wire x1="444.5" y1="213.36" x2="434.34" y2="213.36" width="0.1524" layer="91"/>
+<label x="431.8" y="213.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AD3" class="0">
@@ -13928,9 +13928,9 @@ cap and power pin stuff</text>
 <label x="408.94" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP5" gate="G$1" pin="2"/>
-<wire x1="444.5" y1="182.88" x2="434.34" y2="182.88" width="0.1524" layer="91"/>
-<label x="431.8" y="182.88" size="1.778" layer="95"/>
+<pinref part="JP5" gate="G$1" pin="1"/>
+<wire x1="444.5" y1="185.42" x2="434.34" y2="185.42" width="0.1524" layer="91"/>
+<label x="431.8" y="185.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO0" class="0">
