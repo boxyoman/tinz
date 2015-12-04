@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11649,7 +11649,9 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.3048" drill="0">
+</class>
+<class number="1" name="supply" width="0.3048" drill="0">
 </class>
 </classes>
 <parts>
@@ -12104,7 +12106,7 @@ cap and power pin stuff</text>
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <wire x1="302.26" y1="27.94" x2="302.26" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="25.4" x2="302.26" y2="20.32" width="0.1524" layer="91"/>
@@ -12592,7 +12594,7 @@ cap and power pin stuff</text>
 <junction x="-73.66" y="226.06"/>
 </segment>
 </net>
-<net name="+3.31V" class="0">
+<net name="+3.31V" class="1">
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="U$4" gate="G$1" pin="OUT1_B"/>
@@ -12623,7 +12625,7 @@ cap and power pin stuff</text>
 <label x="-50.8" y="243.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VBUS_5V" class="0">
+<net name="VBUS_5V" class="1">
 <segment>
 <pinref part="U$4" gate="G$1" pin="!SHDN2!"/>
 <wire x1="-132.08" y1="218.44" x2="-134.62" y2="218.44" width="0.1524" layer="91"/>
@@ -12734,7 +12736,7 @@ cap and power pin stuff</text>
 <wire x1="-86.36" y1="203.2" x2="-86.36" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+1.2V" class="0">
+<net name="+1.2V" class="1">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="-30.48" y1="213.36" x2="-25.4" y2="213.36" width="0.1524" layer="91"/>
@@ -12795,7 +12797,7 @@ cap and power pin stuff</text>
 <label x="139.7" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="+3.3V" class="0">
+<net name="+3.3V" class="1">
 <segment>
 <pinref part="C13" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="294.64" x2="17.78" y2="297.18" width="0.1524" layer="91"/>
@@ -14127,50 +14129,46 @@ cap and power pin stuff</text>
 </net>
 <net name="IOC0" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PIO0_12"/>
-<wire x1="233.68" y1="193.04" x2="243.84" y2="193.04" width="0.1524" layer="91"/>
-<label x="241.3" y="193.04" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="JP3" gate="G$1" pin="1"/>
 <wire x1="444.5" y1="238.76" x2="434.34" y2="238.76" width="0.1524" layer="91"/>
 <label x="431.8" y="238.76" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="IOC1" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="PIO0_13"/>
 <wire x1="233.68" y1="190.5" x2="243.84" y2="190.5" width="0.1524" layer="91"/>
-<label x="241.3" y="190.5" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="IOC1" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="2"/>
 <wire x1="444.5" y1="236.22" x2="434.34" y2="236.22" width="0.1524" layer="91"/>
 <label x="431.8" y="236.22" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="IOC2" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="PIO0_14"/>
 <wire x1="233.68" y1="187.96" x2="243.84" y2="187.96" width="0.1524" layer="91"/>
-<label x="241.3" y="187.96" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="IOC2" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="3"/>
 <wire x1="444.5" y1="233.68" x2="434.34" y2="233.68" width="0.1524" layer="91"/>
 <label x="431.8" y="233.68" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="IOC3" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="PIO0_15"/>
 <wire x1="233.68" y1="185.42" x2="243.84" y2="185.42" width="0.1524" layer="91"/>
-<label x="241.3" y="185.42" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="IOC3" class="0">
 <segment>
 <pinref part="JP3" gate="G$1" pin="4"/>
 <wire x1="444.5" y1="231.14" x2="434.34" y2="231.14" width="0.1524" layer="91"/>
 <label x="431.8" y="231.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="PIO0_16"/>
+<wire x1="233.68" y1="182.88" x2="243.84" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
