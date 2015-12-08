@@ -5,11 +5,11 @@
 strict digraph G {
 	USB [shape=box]
 	// Regulator [shape=box,label="Voltage Regulator"]
-	USB_Controller [shape=box,label="FTDI USB Controller"]
+	USB_Controller [shape=box,label="FTDI"]
 	EEPROM [shape=box]
 	Oscillator [shape=box, label="12MHz"]
 	iCE  [shape=box, size="5,6",label="iCE40HX1k"]
-	MCU [shape=box]
+	MCU [shape=box,label="ATSAM3S4A"]
 	PMOD1 [shape=box]
 	PMOD2 [shape=box]
 	PMOD3 [shape=box]
@@ -28,7 +28,7 @@ strict digraph G {
 	Oscillator -> iCE
 	USB_Controller -> iCE [label="SPI",dir=both]
 	USB_Controller -> MCU [label="RS232",dir=both]
-	iCE -> MCU [dir=both]
+  iCE -> MCU [dir=both, label="RS232, SPI, TWI, GPIO"]
 	iCE -> PMOD1 [dir=both]
 	iCE -> PMOD2 [dir=both]
 	iCE -> PMOD3 [dir=both]
