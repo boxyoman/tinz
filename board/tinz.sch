@@ -11799,6 +11799,7 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <part name="SUPPLY32" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY33" library="supply2" deviceset="GND" device=""/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-RB751" value="CDBU0520"/>
+<part name="SUPPLY34" library="supply2" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12102,6 +12103,7 @@ cap and power pin stuff</text>
 <attribute name="NAME" x="167.64" y="183.3626" size="1.778" layer="95"/>
 <attribute name="VALUE" x="160.02" y="179.07" size="1.778" layer="96"/>
 </instance>
+<instance part="SUPPLY34" gate="GND" x="-93.98" y="81.28"/>
 </instances>
 <busses>
 </busses>
@@ -12559,6 +12561,17 @@ cap and power pin stuff</text>
 <segment>
 <wire x1="439.42" y1="175.26" x2="439.42" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="SUPPLY33" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="A" pin="VSS"/>
+<wire x1="-81.28" y1="88.9" x2="-86.36" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="88.9" x2="-86.36" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="86.36" x2="-93.98" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="C22" gate="G$1" pin="2"/>
+<wire x1="-93.98" y1="86.36" x2="-93.98" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="SUPPLY34" gate="GND" pin="GND"/>
+<wire x1="-93.98" y1="83.82" x2="-93.98" y2="86.36" width="0.1524" layer="91"/>
+<junction x="-93.98" y="86.36"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -13150,16 +13163,6 @@ cap and power pin stuff</text>
 <wire x1="48.26" y1="10.16" x2="48.26" y2="20.32" width="0.1524" layer="91"/>
 <junction x="48.26" y="20.32"/>
 <label x="43.18" y="20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="U$5" gate="A" pin="VSS"/>
-<wire x1="-81.28" y1="88.9" x2="-86.36" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="-86.36" y1="88.9" x2="-86.36" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="-86.36" y1="86.36" x2="-93.98" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="C22" gate="G$1" pin="2"/>
-<wire x1="-93.98" y1="86.36" x2="-93.98" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FT_EECLK" class="0">
