@@ -3,8 +3,8 @@
 |------------------------+----------------------+---------------------+--------------+-------------------------+-------+--------|
 | Lattice                | iCE40HX1k            | 220-1565-ND         | TQ144        | FPGA                    | N/A   |      1 |
 | Atmel                  | ATSAM3S4A            | ATSAM3S4AA-AURCT-ND | LQFP-48      | MCU                     | N/A   |      1 |
-| Microchip              | 93LC56C              | 1274-1134-ND        | SOIC-8       | Serial EEPROM           | N/A   |      1 |
-| Micron                 | N25Q032A13ESC40F     | N25Q032A13ESC40F-ND | SOIC-8       | Serial NOR Flash Memory | N/A   |      1 |
+| Microchip              | 93LC56C              | 93LC56C-I/SN-ND     | SOIC-8       | Serial EEPROM           | N/A   |      1 |
+| Micron                 | N25Q032A13ESC40F     | 1274-1134-ND        | SOIC-8       | Serial NOR Flash Memory | N/A   |      1 |
 | FTDI                   | FT2232H              | 768-1024-1-ND       | LQFP-ST-64-2 | USB 2.0 Controller      | N/A   |      1 |
 | Linear Technology      | LT3030EFE            | LT3030EFE#PBF-ND    | TSSOP20      | Voltage Regulator       | N/A   |      1 |
 | Mill-Max Manufacturing | 898-43-024-90-310000 | ED1391CT-ND         | Through-hole | USB Type-C Connector    | N/A   |      1 |
