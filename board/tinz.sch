@@ -11621,6 +11621,8 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 </class>
 <class number="1" name="supply" width="0.3048" drill="0">
 </class>
+<class number="2" name="USB" width="0" drill="0">
+</class>
 </classes>
 <parts>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
@@ -12586,7 +12588,7 @@ cap and power pin stuff</text>
 <label x="-50.8" y="243.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="VBUS_5V" class="1">
+<net name="VBUS_5V" class="2">
 <segment>
 <pinref part="U$4" gate="G$1" pin="!SHDN2!"/>
 <wire x1="-132.08" y1="218.44" x2="-134.62" y2="218.44" width="0.1524" layer="91"/>
@@ -14075,7 +14077,7 @@ cap and power pin stuff</text>
 <wire x1="182.88" y1="167.64" x2="177.8" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="D_N" class="0">
+<net name="D_N" class="2">
 <segment>
 <pinref part="U$6" gate="G$1" pin="DN"/>
 <wire x1="-60.96" y1="0" x2="-48.26" y2="0" width="0.1524" layer="91"/>
@@ -14087,7 +14089,7 @@ cap and power pin stuff</text>
 <label x="25.4" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D_P" class="0">
+<net name="D_P" class="2">
 <segment>
 <pinref part="U$6" gate="G$1" pin="DP"/>
 <wire x1="-60.96" y1="-2.54" x2="-48.26" y2="-2.54" width="0.1524" layer="91"/>
