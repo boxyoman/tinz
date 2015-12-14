@@ -83,10 +83,6 @@
 <smd name="A10" x="1.75" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
 <smd name="A11" x="2.25" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
 <smd name="A12" x="2.75" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
-<smd name="P$13" x="-1.25" y="2" dx="0.3" dy="0.5" layer="1" rot="R90"/>
-<smd name="P$14" x="1.25" y="2" dx="0.3" dy="0.5" layer="1" rot="R90"/>
-<smd name="P$15" x="-3.375" y="2" dx="0.3" dy="0.5" layer="1" rot="R90"/>
-<smd name="P$16" x="3.375" y="2" dx="0.3" dy="0.5" layer="1" rot="R90"/>
 <pad name="P$17" x="-6.13" y="-5.75" drill="0.5" diameter="1.05" shape="long" rot="R90"/>
 <wire x1="-5.88" y1="-5.15" x2="-5.88" y2="-6.42" width="0.025" layer="46"/>
 <wire x1="-5.88" y1="-6.42" x2="-6.12" y2="-6.66" width="0.025" layer="46" curve="-90"/>
@@ -181,7 +177,7 @@
 <connect gate="G$1" pin="DP2_B" pad="B6"/>
 <connect gate="G$1" pin="GND2_A" pad="A12"/>
 <connect gate="G$1" pin="GND2_B" pad="B1"/>
-<connect gate="G$1" pin="GND_A" pad="A1 P$13 P$14 P$15 P$16 P$17 P$18 P$19 P$20"/>
+<connect gate="G$1" pin="GND_A" pad="A1"/>
 <connect gate="G$1" pin="GND_B" pad="B12"/>
 <connect gate="G$1" pin="SBU1_A" pad="A8"/>
 <connect gate="G$1" pin="SBU2_B" pad="B8"/>
