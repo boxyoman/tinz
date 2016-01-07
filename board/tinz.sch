@@ -13644,14 +13644,14 @@ cap and power pin stuff</text>
 </net>
 <net name="M_MOSI" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PIO2_12"/>
-<wire x1="233.68" y1="60.96" x2="256.54" y2="60.96" width="0.1524" layer="91"/>
-<label x="241.3" y="60.96" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U2" gate="A" pin="PA13/PGMD1"/>
 <wire x1="393.7" y1="53.34" x2="414.02" y2="53.34" width="0.1524" layer="91"/>
 <label x="403.86" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="PIO2_13"/>
+<wire x1="233.68" y1="58.42" x2="256.54" y2="58.42" width="0.1524" layer="91"/>
+<label x="246.38" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI_NPCS0" class="0">
@@ -13668,14 +13668,14 @@ cap and power pin stuff</text>
 </net>
 <net name="M_MISO" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PIO2_13"/>
-<wire x1="233.68" y1="58.42" x2="256.54" y2="58.42" width="0.1524" layer="91"/>
-<label x="241.3" y="58.42" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U2" gate="A" pin="PA12/PGMD0"/>
 <wire x1="393.7" y1="55.88" x2="414.02" y2="55.88" width="0.1524" layer="91"/>
 <label x="403.86" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="PIO2_12"/>
+<wire x1="233.68" y1="60.96" x2="256.54" y2="60.96" width="0.1524" layer="91"/>
+<label x="246.38" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="URXD1" class="0">
@@ -13709,9 +13709,9 @@ cap and power pin stuff</text>
 <label x="297.18" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="PIO3_16/DP10A"/>
-<wire x1="233.68" y1="-5.08" x2="246.38" y2="-5.08" width="0.1524" layer="91"/>
-<label x="238.76" y="-5.08" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="GBIN6/PIO3_00/DP08A"/>
+<wire x1="233.68" y1="35.56" x2="246.38" y2="35.56" width="0.1524" layer="91"/>
+<label x="238.76" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO8" class="0">
@@ -13721,9 +13721,9 @@ cap and power pin stuff</text>
 <label x="401.32" y="30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="PIO3_17/DP10B"/>
-<wire x1="233.68" y1="-7.62" x2="246.38" y2="-7.62" width="0.1524" layer="91"/>
-<label x="238.76" y="-7.62" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="GBIN7/PIO3_01/DP07B"/>
+<wire x1="233.68" y1="33.02" x2="246.38" y2="33.02" width="0.1524" layer="91"/>
+<label x="238.76" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TWD0" class="0">
@@ -13737,9 +13737,9 @@ cap and power pin stuff</text>
 <junction x="419.1" y="78.74"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="PIO3_03/DP00B"/>
-<wire x1="233.68" y1="27.94" x2="246.38" y2="27.94" width="0.1524" layer="91"/>
-<label x="238.76" y="27.94" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="PIO3_04/DP01A"/>
+<wire x1="233.68" y1="25.4" x2="246.38" y2="25.4" width="0.1524" layer="91"/>
+<label x="238.76" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TWCK0" class="0">
@@ -13753,9 +13753,9 @@ cap and power pin stuff</text>
 <junction x="426.72" y="76.2"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="PIO3_04/DP01A"/>
-<wire x1="233.68" y1="25.4" x2="246.38" y2="25.4" width="0.1524" layer="91"/>
-<label x="238.76" y="25.4" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="PIO3_03/DP00B"/>
+<wire x1="233.68" y1="27.94" x2="246.38" y2="27.94" width="0.1524" layer="91"/>
+<label x="238.76" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AD4" class="0">
@@ -13837,9 +13837,9 @@ cap and power pin stuff</text>
 <label x="398.78" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="PIO3_11/DP04B"/>
-<wire x1="233.68" y1="7.62" x2="246.38" y2="7.62" width="0.1524" layer="91"/>
-<label x="238.76" y="7.62" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="PIO3_17/DP10B"/>
+<wire x1="233.68" y1="-7.62" x2="246.38" y2="-7.62" width="0.1524" layer="91"/>
+<label x="238.76" y="-7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO1" class="0">
@@ -13849,9 +13849,9 @@ cap and power pin stuff</text>
 <label x="398.78" y="83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="PIO3_12/DP07A"/>
-<wire x1="233.68" y1="5.08" x2="246.38" y2="5.08" width="0.1524" layer="91"/>
-<label x="238.76" y="5.08" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="PIO3_16/DP10A"/>
+<wire x1="233.68" y1="-5.08" x2="246.38" y2="-5.08" width="0.1524" layer="91"/>
+<label x="238.76" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO2" class="0">
@@ -13861,9 +13861,9 @@ cap and power pin stuff</text>
 <label x="398.78" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="GBIN7/PIO3_01/DP07B"/>
-<wire x1="233.68" y1="33.02" x2="246.38" y2="33.02" width="0.1524" layer="91"/>
-<label x="238.76" y="33.02" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="PIO3_15/DP09B"/>
+<wire x1="233.68" y1="-2.54" x2="246.38" y2="-2.54" width="0.1524" layer="91"/>
+<label x="238.76" y="-2.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO3" class="0">
@@ -13873,9 +13873,9 @@ cap and power pin stuff</text>
 <label x="401.32" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="GBIN6/PIO3_00/DP08A"/>
-<wire x1="233.68" y1="35.56" x2="246.38" y2="35.56" width="0.1524" layer="91"/>
-<label x="238.76" y="35.56" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="PIO3_14/DP09A"/>
+<wire x1="233.68" y1="0" x2="246.38" y2="0" width="0.1524" layer="91"/>
+<label x="238.76" y="0" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO4" class="0">
@@ -13897,9 +13897,9 @@ cap and power pin stuff</text>
 <label x="403.86" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="PIO3_14/DP09A"/>
-<wire x1="233.68" y1="0" x2="246.38" y2="0" width="0.1524" layer="91"/>
-<label x="238.76" y="0" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="PIO3_11/DP04B"/>
+<wire x1="233.68" y1="7.62" x2="246.38" y2="7.62" width="0.1524" layer="91"/>
+<label x="238.76" y="7.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GPIO6" class="0">
@@ -13909,9 +13909,9 @@ cap and power pin stuff</text>
 <label x="403.86" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="PIO3_15/DP09B"/>
-<wire x1="233.68" y1="-2.54" x2="246.38" y2="-2.54" width="0.1524" layer="91"/>
-<label x="238.76" y="-2.54" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="PIO3_12/DP07A"/>
+<wire x1="233.68" y1="5.08" x2="246.38" y2="5.08" width="0.1524" layer="91"/>
+<label x="238.76" y="5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ADVREF" class="0">
