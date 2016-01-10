@@ -13737,9 +13737,8 @@ cap and power pin stuff</text>
 <junction x="419.1" y="78.74"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="PIO3_04/DP01A"/>
-<wire x1="233.68" y1="25.4" x2="246.38" y2="25.4" width="0.1524" layer="91"/>
-<label x="238.76" y="25.4" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="PIO2_05"/>
+<wire x1="233.68" y1="78.74" x2="256.54" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TWCK0" class="0">
@@ -13753,9 +13752,8 @@ cap and power pin stuff</text>
 <junction x="426.72" y="76.2"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="PIO3_03/DP00B"/>
-<wire x1="233.68" y1="27.94" x2="246.38" y2="27.94" width="0.1524" layer="91"/>
-<label x="238.76" y="27.94" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="PIO2_06"/>
+<wire x1="233.68" y1="76.2" x2="256.54" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AD4" class="0">
