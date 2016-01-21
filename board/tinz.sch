@@ -12667,6 +12667,7 @@ cap and power pin stuff</text>
 <segment>
 <pinref part="U$2" gate="G$1" pin="PIO2_05"/>
 <wire x1="233.68" y1="78.74" x2="256.54" y2="78.74" width="0.1524" layer="91"/>
+<label x="248.92" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TWCK0" class="0">
@@ -12682,6 +12683,7 @@ cap and power pin stuff</text>
 <segment>
 <pinref part="U$2" gate="G$1" pin="PIO2_06"/>
 <wire x1="233.68" y1="76.2" x2="256.54" y2="76.2" width="0.1524" layer="91"/>
+<label x="248.92" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AD4" class="0">
@@ -13018,7 +13020,6 @@ cap and power pin stuff</text>
 <approved hash="104,1,307.34,78.74,U2,VDDIO,+3.3V,,,"/>
 <approved hash="104,1,307.34,73.66,U2,VDDPLL,VDDOUT,,,"/>
 <approved hash="104,1,22.86,248.92,U$7,VCC,+3.3V,,,"/>
-<approved hash="113,1,467.36,83.0792,Q1,,,,,"/>
 <approved hash="113,1,447.717,284.285,JP1,,,,,"/>
 <approved hash="113,1,447.717,258.885,JP2,,,,,"/>
 <approved hash="113,1,447.717,230.945,JP3,,,,,"/>
