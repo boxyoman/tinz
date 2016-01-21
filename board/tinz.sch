@@ -13019,6 +13019,8 @@ cap and power pin stuff</text>
 <approved hash="104,1,307.34,81.28,U2,VDDIO_3,+3.3V,,,"/>
 <approved hash="104,1,307.34,78.74,U2,VDDIO,+3.3V,,,"/>
 <approved hash="104,1,307.34,73.66,U2,VDDPLL,VDDOUT,,,"/>
+<approved hash="202,1,307.34,66.04,U2,JTAGSEL,,,,"/>
+<approved hash="202,1,307.34,63.5,U2,TST,,,,"/>
 <approved hash="104,1,22.86,248.92,U$7,VCC,+3.3V,,,"/>
 <approved hash="113,1,447.717,284.285,JP1,,,,,"/>
 <approved hash="113,1,447.717,258.885,JP2,,,,,"/>
