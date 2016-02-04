@@ -1,3 +1,6 @@
 [submodule "lib/sparkfun"]
 	path = lib/sparkfun
 	url = https://github.com/sparkfun/SparkFun-Eagle-Libraries
+[submodule "SparkFun_Eagle_Settings"]
+	path = SparkFun_Eagle_Settings
+	url = https://github.com/sparkfun/SparkFun_Eagle_Settings.git
