@@ -83,33 +83,9 @@
 <smd name="A11" x="2.25" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
 <smd name="A12" x="2.75" y="1.11" dx="0.7" dy="0.3" layer="1" rot="R90"/>
 <pad name="P$17" x="-6.13" y="-5.75" drill="0.5" diameter="1.05" shape="long" rot="R90"/>
-<wire x1="-5.88" y1="-5.15" x2="-5.88" y2="-6.42" width="0.025" layer="46"/>
-<wire x1="-5.88" y1="-6.42" x2="-6.12" y2="-6.66" width="0.025" layer="46" curve="-90"/>
-<wire x1="-6.12" y1="-6.66" x2="-6.38" y2="-6.4" width="0.025" layer="46" curve="-90"/>
-<wire x1="-6.38" y1="-6.4" x2="-6.38" y2="-5.15" width="0.025" layer="46"/>
-<wire x1="-6.38" y1="-5.15" x2="-6.13" y2="-4.9" width="0.025" layer="46" curve="-90"/>
-<wire x1="-6.13" y1="-4.9" x2="-5.88" y2="-5.15" width="0.025" layer="46" curve="-90"/>
 <pad name="P$18" x="6.12" y="-5.75" drill="0.5" diameter="1.05" shape="long" rot="R90"/>
-<wire x1="6.37" y1="-5.15" x2="6.37" y2="-6.42" width="0.025" layer="46"/>
-<wire x1="6.37" y1="-6.42" x2="6.13" y2="-6.66" width="0.025" layer="46" curve="-90"/>
-<wire x1="6.13" y1="-6.66" x2="5.87" y2="-6.4" width="0.025" layer="46" curve="-90"/>
-<wire x1="5.87" y1="-6.4" x2="5.87" y2="-5.15" width="0.025" layer="46"/>
-<wire x1="5.87" y1="-5.15" x2="6.12" y2="-4.9" width="0.025" layer="46" curve="-90"/>
-<wire x1="6.12" y1="-4.9" x2="6.37" y2="-5.15" width="0.025" layer="46" curve="-90"/>
 <pad name="P$19" x="-4.13" y="-0.8" drill="0.45" diameter="0.6" shape="long" rot="R90"/>
-<wire x1="-4.13" y1="-0.32" x2="-4.37" y2="-0.56" width="0.025" layer="46" curve="90"/>
-<wire x1="-4.37" y1="-0.56" x2="-4.37" y2="-1.04" width="0.025" layer="46"/>
-<wire x1="-4.37" y1="-1.04" x2="-4.13" y2="-1.28" width="0.025" layer="46" curve="90"/>
-<wire x1="-4.13" y1="-1.28" x2="-3.89" y2="-1.04" width="0.025" layer="46" curve="90"/>
-<wire x1="-3.89" y1="-1.04" x2="-3.89" y2="-0.55" width="0.025" layer="46"/>
-<wire x1="-3.89" y1="-0.55" x2="-4.12" y2="-0.32" width="0.025" layer="46" curve="90"/>
 <pad name="P$20" x="4.12" y="-0.8" drill="0.45" diameter="0.6" shape="long" rot="R90"/>
-<wire x1="4.12" y1="-0.32" x2="3.88" y2="-0.56" width="0.025" layer="46" curve="90"/>
-<wire x1="3.88" y1="-0.56" x2="3.88" y2="-1.04" width="0.025" layer="46"/>
-<wire x1="3.88" y1="-1.04" x2="4.12" y2="-1.28" width="0.025" layer="46" curve="90"/>
-<wire x1="4.12" y1="-1.28" x2="4.36" y2="-1.04" width="0.025" layer="46" curve="90"/>
-<wire x1="4.36" y1="-1.04" x2="4.36" y2="-0.55" width="0.025" layer="46"/>
-<wire x1="4.36" y1="-0.55" x2="4.13" y2="-0.32" width="0.025" layer="46" curve="90"/>
 <wire x1="-7.1" y1="-7.75" x2="-4.625" y2="-7.75" width="0.025" layer="21"/>
 <wire x1="-4.625" y1="-7.75" x2="-4.625" y2="-2.05" width="0.025" layer="21"/>
 <wire x1="-4.625" y1="-2.05" x2="-4.125" y2="-1.55" width="0.025" layer="21" curve="-90"/>
@@ -125,6 +101,31 @@
 <hole x="3.375" y="2" drill="0.6"/>
 <hole x="-3.6" y="0.45" drill="0.65"/>
 <hole x="3.6" y="0.45" drill="0.65"/>
+<hole x="-4.13" y="-0.57" drill="0.5"/>
+<hole x="-4.13" y="-1.03" drill="0.5"/>
+<hole x="-4.13" y="-0.83" drill="0.5"/>
+<hole x="-4.13" y="-0.73" drill="0.5"/>
+<hole x="4.12" y="-0.57" drill="0.5"/>
+<pad name="P$1" x="4.12" y="-0.8" drill="0.45" diameter="0.6" shape="long" rot="R90"/>
+<hole x="4.12" y="-1.03" drill="0.5"/>
+<hole x="4.12" y="-0.73" drill="0.5"/>
+<hole x="4.12" y="-0.93" drill="0.5"/>
+<hole x="-6.13" y="-5.13" drill="0.5"/>
+<hole x="-6.13" y="-6.43" drill="0.5"/>
+<hole x="-6.13" y="-6.23" drill="0.5"/>
+<hole x="-6.13" y="-6.03" drill="0.5"/>
+<hole x="-6.13" y="-5.83" drill="0.5"/>
+<hole x="-6.13" y="-5.63" drill="0.5"/>
+<hole x="-6.13" y="-5.43" drill="0.5"/>
+<hole x="-6.13" y="-5.23" drill="0.5"/>
+<hole x="6.12" y="-5.15" drill="0.5"/>
+<hole x="6.12" y="-6.41" drill="0.5"/>
+<hole x="6.12" y="-6.21" drill="0.5"/>
+<hole x="6.12" y="-6.01" drill="0.5"/>
+<hole x="6.12" y="-5.81" drill="0.5"/>
+<hole x="6.12" y="-5.31" drill="0.5"/>
+<hole x="6.12" y="-5.51" drill="0.5"/>
+<hole x="6.12" y="-5.61" drill="0.5"/>
 </package>
 </packages>
 <symbols>
