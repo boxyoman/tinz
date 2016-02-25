@@ -10396,15 +10396,15 @@ B340A  3A 40V SMA &lt;br&gt;</description>
 <pad name="P$18" x="6.12" y="-5.75" drill="0.5" diameter="1.05" shape="long" rot="R90"/>
 <pad name="P$19" x="-4.13" y="-0.8" drill="0.45" diameter="0.6" shape="long" rot="R90"/>
 <pad name="P$20" x="4.12" y="-0.8" drill="0.45" diameter="0.6" shape="long" rot="R90"/>
-<wire x1="-7.1" y1="-7.75" x2="-4.625" y2="-7.75" width="0.025" layer="21"/>
-<wire x1="-4.625" y1="-7.75" x2="-4.625" y2="-2.05" width="0.025" layer="21"/>
-<wire x1="-4.625" y1="-2.05" x2="-4.125" y2="-1.55" width="0.025" layer="21" curve="-90"/>
-<wire x1="-4.125" y1="-1.55" x2="4.125" y2="-1.55" width="0.025" layer="21"/>
-<wire x1="4.125" y1="-1.55" x2="4.625" y2="-2.05" width="0.025" layer="21" curve="-90"/>
-<wire x1="4.625" y1="-2.05" x2="4.625" y2="-7.75" width="0.025" layer="21"/>
-<wire x1="4.625" y1="-7.75" x2="7.235" y2="-7.75" width="0.025" layer="21"/>
-<text x="-3.81" y="-3.81" size="1.27" layer="21">&gt;NAME</text>
-<text x="-3.81" y="-6.35" size="1.27" layer="21">&gt;VALUE</text>
+<wire x1="-7.1" y1="-7.75" x2="-4.625" y2="-7.75" width="0.025" layer="46"/>
+<wire x1="-4.625" y1="-7.75" x2="-4.625" y2="-2.05" width="0.025" layer="46"/>
+<wire x1="-4.625" y1="-2.05" x2="-4.125" y2="-1.55" width="0.025" layer="46" curve="-90"/>
+<wire x1="-4.125" y1="-1.55" x2="4.125" y2="-1.55" width="0.025" layer="46"/>
+<wire x1="4.125" y1="-1.55" x2="4.625" y2="-2.05" width="0.025" layer="46" curve="-90"/>
+<wire x1="4.625" y1="-2.05" x2="4.625" y2="-7.75" width="0.025" layer="46"/>
+<wire x1="4.625" y1="-7.75" x2="7.235" y2="-7.75" width="0.025" layer="46"/>
+<text x="-3.81" y="-3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
 <hole x="-3.375" y="2" drill="0.6"/>
 <hole x="-1.25" y="2" drill="0.6"/>
 <hole x="1.25" y="2" drill="0.6"/>
