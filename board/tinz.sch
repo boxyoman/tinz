@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12214,11 +12214,6 @@ cap and power pin stuff</text>
 </net>
 <net name="MOSI" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PIOS_01/SPI_SI"/>
-<wire x1="182.88" y1="129.54" x2="180.34" y2="129.54" width="0.1524" layer="91"/>
-<label x="173.736" y="128.778" size="1.778" layer="95"/>
-</segment>
-<segment>
 <label x="122.682" y="128.778" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="ACBUS1"/>
 <wire x1="121.92" y1="129.54" x2="101.6" y2="129.54" width="0.1524" layer="91"/>
@@ -12228,13 +12223,13 @@ cap and power pin stuff</text>
 <wire x1="58.42" y1="-7.62" x2="10.16" y2="-7.62" width="0.1524" layer="91"/>
 <label x="3.302" y="-8.382" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="MISO" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="PIOS_02/SPI_SO"/>
 <wire x1="182.88" y1="127" x2="180.34" y2="127" width="0.1524" layer="91"/>
-<label x="173.99" y="126.238" size="1.778" layer="95"/>
+<label x="173.736" y="126.238" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="MISO" class="0">
 <segment>
 <label x="122.682" y="126.238" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="ACBUS2"/>
@@ -12244,6 +12239,11 @@ cap and power pin stuff</text>
 <pinref part="U$3" gate="G$1" pin="DQ1"/>
 <wire x1="91.44" y1="-12.7" x2="93.98" y2="-12.7" width="0.1524" layer="91"/>
 <label x="93.98" y="-12.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="PIOS_01/SPI_SI"/>
+<wire x1="182.88" y1="129.54" x2="180.34" y2="129.54" width="0.1524" layer="91"/>
+<label x="173.736" y="128.778" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SS" class="0">
