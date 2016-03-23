@@ -1,19 +1,19 @@
-* TODO Order Parts [0/2]
-  + [ ] Finish parts list
-  + [ ] Contact Almasy
 
-* TODO Finish Board Design [0/2]
-  + [ ] Finish schematic
-  + [ ] Design PCB
+* DONE Order Parts [2/2]
+  + [X] Finish parts list
+  + [X] Contact Almasy
 
-* TODO Make Board [0/3]
-  + [ ] Order PCB
-  + [ ] Get Qortek okay
-  + [ ] Solder!
+* DONE Finish Board Design [2/2]
+  + [X] Finish schematic
+  + [X] Design PCB
 
-* TODO Test First Design [0/3]
-  + [ ] Program EEPROM
-  + [ ] Test FPGA
+* DONE Make Board [2/2]
+  + [X] Order PCB
+  + [X] Solder!
+
+* TODO Test First Design [2/3]
+  + [X] Program EEPROM
+  + [X] Test FPGA
   + [ ] Test MCU
 
 (defun tinz-project (jon kevin)
