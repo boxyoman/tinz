@@ -1,1 +1,15 @@
-site_name: My Docs
+site_name: TINZ Docs
+site_description: 'Documentation and information about the TINZ'
+theme: 'material'
+
+pages:
+- Home: index.md
+- About: about.md
+
+extra:
+  palette:
+    primary: 'indigo'
+    accent: 'light blue'
+  i18n:
+    prev: 'Previous'
+    next: 'Next'
