@@ -4,7 +4,10 @@ theme: 'material'
 
 pages:
 - Home: index.md
-- About: about.md
+- Reference:
+  - 'Board': reference/board.md
+  - 'FPGA': reference/fpga.md
+  - 'CPU': reference/cpu.md
 
 extra:
   palette:
