@@ -12,7 +12,7 @@
         }, 
         {
             "location": "/reference/board/", 
-            "text": "The Board\n\n\nBlock Diagram\n\n\nBelow is a general block diagram of the board, and how data flows.\n\n\n \n\n\nSchematic\n\n\nThe schematic of the board is available on \n\nGitHub\n. The schematic exists in the \nboard directory. Just open the tinz.sch in Eagle to view the schematic. The \nboard layout is there as well.\n\n\nInterconnections", 
+            "text": "The Board\n\n\nBlock Diagram\n\n\nBelow is a general block diagram of the board, and how data flows.\n\n\n \n\n\nSchematic\n\n\nThe schematic of the board is available on \n\nGitHub\n. The schematic exists in the \nboard directory. Just open the tinz.sch in Eagle to view the schematic. The \nboard layout is there as well.\n\n\nInterconnections\n\n\nThe FPGA and MCU have several pins and data communication types connecting them. \nBelow is a list of them, and which pins connect them. \n\n\n\n\n\n\n\n\nCommunication Type\n\n\nFPGA Pin\n\n\nMCU Pin\n\n\n\n\n\n\n\n\n\n\nUART (URXD1)\n\n\n9\n\n\nPB2\n\n\n\n\n\n\nUART (UTXD1)\n\n\n10\n\n\nPB3\n\n\n\n\n\n\nI2C (TWD0)\n\n\n38\n\n\nPA3\n\n\n\n\n\n\nI2C (TWCK0)\n\n\n39\n\n\nPA4\n\n\n\n\n\n\nSPI (SPI_NPCS0)\n\n\n45\n\n\nPA11\n\n\n\n\n\n\nSPI (MISO)\n\n\n47\n\n\nPA12\n\n\n\n\n\n\nSPI (MOSI)\n\n\n48\n\n\nPA13\n\n\n\n\n\n\nSPI (M_SPCK)\n\n\n49\n\n\nPA14\n\n\n\n\n\n\nGPIO0\n\n\n26\n\n\nPA1\n\n\n\n\n\n\nGPIO1\n\n\n25\n\n\nPA0\n\n\n\n\n\n\n\n\nNote:\n Names are take from the perspective of the MCU.", 
             "title": "Board"
         }, 
         {
@@ -32,13 +32,23 @@
         }, 
         {
             "location": "/reference/board/#interconnections", 
-            "text": "", 
+            "text": "The FPGA and MCU have several pins and data communication types connecting them. \nBelow is a list of them, and which pins connect them.      Communication Type  FPGA Pin  MCU Pin      UART (URXD1)  9  PB2    UART (UTXD1)  10  PB3    I2C (TWD0)  38  PA3    I2C (TWCK0)  39  PA4    SPI (SPI_NPCS0)  45  PA11    SPI (MISO)  47  PA12    SPI (MOSI)  48  PA13    SPI (M_SPCK)  49  PA14    GPIO0  26  PA1    GPIO1  25  PA0     Note:  Names are take from the perspective of the MCU.", 
             "title": "Interconnections"
         }, 
         {
             "location": "/reference/fpga/", 
+            "text": "FPGA\n\n\nExample PCF\n\n\nnote:\n only include those lines that you need\n\n\nset_io clk 129\n\nset_io LED1 95\nset_io LED2 96\nset_io LED3 97\nset_io LED4 98\n\nset_io J10 112\nset_io J11 113\nset_io J12 114\nset_io J13 115\n\nset_io J20 117\nset_io J21 118\nset_io J22 119\nset_io J23 120\n\nset_io J30 134\nset_io J31 135\nset_io J32 136\nset_io J33 137\n\n\n\n\nFrom FPGA to MCU\n\n\nset_io SPI_NPCS0 45\nset_io MISO 47\nset_io MOSI 48\nset_io M_SPCK 49\n\nset_io TWD 38\nset_io TWCK 39\n\nset_io TXD1 9\nset_io RXD1 10\n\nset_io GPIO0 26\nset_io GPIO1 25", 
+            "title": "FPGA"
+        }, 
+        {
+            "location": "/reference/fpga/#fpga", 
             "text": "", 
             "title": "FPGA"
+        }, 
+        {
+            "location": "/reference/fpga/#example-pcf", 
+            "text": "note:  only include those lines that you need  set_io clk 129\n\nset_io LED1 95\nset_io LED2 96\nset_io LED3 97\nset_io LED4 98\n\nset_io J10 112\nset_io J11 113\nset_io J12 114\nset_io J13 115\n\nset_io J20 117\nset_io J21 118\nset_io J22 119\nset_io J23 120\n\nset_io J30 134\nset_io J31 135\nset_io J32 136\nset_io J33 137  From FPGA to MCU  set_io SPI_NPCS0 45\nset_io MISO 47\nset_io MOSI 48\nset_io M_SPCK 49\n\nset_io TWD 38\nset_io TWCK 39\n\nset_io TXD1 9\nset_io RXD1 10\n\nset_io GPIO0 26\nset_io GPIO1 25", 
+            "title": "Example PCF"
         }, 
         {
             "location": "/reference/cpu/", 

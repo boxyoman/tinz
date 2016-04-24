@@ -234,6 +234,70 @@
 board directory. Just open the tinz.sch in Eagle to view the schematic. The 
 board layout is there as well.</p>
 <h2 id="interconnections">Interconnections</h2>
+<p>The FPGA and MCU have several pins and data communication types connecting them. 
+Below is a list of them, and which pins connect them. </p>
+<table>
+<thead>
+<tr>
+<th>Communication Type</th>
+<th>FPGA Pin</th>
+<th>MCU Pin</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>UART (URXD1)</td>
+<td>9</td>
+<td>PB2</td>
+</tr>
+<tr>
+<td>UART (UTXD1)</td>
+<td>10</td>
+<td>PB3</td>
+</tr>
+<tr>
+<td>I2C (TWD0)</td>
+<td>38</td>
+<td>PA3</td>
+</tr>
+<tr>
+<td>I2C (TWCK0)</td>
+<td>39</td>
+<td>PA4</td>
+</tr>
+<tr>
+<td>SPI (SPI_NPCS0)</td>
+<td>45</td>
+<td>PA11</td>
+</tr>
+<tr>
+<td>SPI (MISO)</td>
+<td>47</td>
+<td>PA12</td>
+</tr>
+<tr>
+<td>SPI (MOSI)</td>
+<td>48</td>
+<td>PA13</td>
+</tr>
+<tr>
+<td>SPI (M_SPCK)</td>
+<td>49</td>
+<td>PA14</td>
+</tr>
+<tr>
+<td>GPIO0</td>
+<td>26</td>
+<td>PA1</td>
+</tr>
+<tr>
+<td>GPIO1</td>
+<td>25</td>
+<td>PA0</td>
+</tr>
+</tbody>
+</table>
+<p><em>Note:</em> Names are take from the perspective of the MCU.</p>
           <aside class="copyright" role="note">
             
             Documentation built with
