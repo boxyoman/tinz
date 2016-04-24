@@ -2,23 +2,48 @@
     "docs": [
         {
             "location": "/", 
-            "text": "TINZ Docs\n\n\nThis is the documentation for the TINZ project.\n\n\nSource", 
+            "text": "TINZ\n\n\nThis TINZ is an open source FPGA and CPU development board. It was born out of \nthe dislike of the ZYBO board's development process, and the discovery of \n\nProject IceStorm\n. With Project IceStorm we \nsaw a way of developing that didn't involve huge convoluted IDEs, but rather \nsimple command line utilities and whatever text editor you wanted. \n\n\nTINZ = TINZ Is Not ZYBO.", 
             "title": "Home"
         }, 
         {
-            "location": "/#tinz-docs", 
-            "text": "This is the documentation for the TINZ project.  Source", 
-            "title": "TINZ Docs"
+            "location": "/#tinz", 
+            "text": "This TINZ is an open source FPGA and CPU development board. It was born out of \nthe dislike of the ZYBO board's development process, and the discovery of  Project IceStorm . With Project IceStorm we \nsaw a way of developing that didn't involve huge convoluted IDEs, but rather \nsimple command line utilities and whatever text editor you wanted.   TINZ = TINZ Is Not ZYBO.", 
+            "title": "TINZ"
         }, 
         {
-            "location": "/about/", 
-            "text": "About the TINZ", 
-            "title": "About"
+            "location": "/reference/board/", 
+            "text": "The Board\n\n\nBlock Diagram\n\n\nBelow is a general block diagram of the board, and how data flows.\n\n\n \n\n\nSchematic\n\n\nThe schematic of the board is available on \n\nGitHub\n. The schematic exists in the \nboard directory. Just open the tinz.sch in Eagle to view the schematic. The \nboard layout is there as well.\n\n\nInterconnections", 
+            "title": "Board"
         }, 
         {
-            "location": "/about/#about-the-tinz", 
+            "location": "/reference/board/#the-board", 
             "text": "", 
-            "title": "About the TINZ"
+            "title": "The Board"
+        }, 
+        {
+            "location": "/reference/board/#block-diagram", 
+            "text": "Below is a general block diagram of the board, and how data flows.", 
+            "title": "Block Diagram"
+        }, 
+        {
+            "location": "/reference/board/#schematic", 
+            "text": "The schematic of the board is available on  GitHub . The schematic exists in the \nboard directory. Just open the tinz.sch in Eagle to view the schematic. The \nboard layout is there as well.", 
+            "title": "Schematic"
+        }, 
+        {
+            "location": "/reference/board/#interconnections", 
+            "text": "", 
+            "title": "Interconnections"
+        }, 
+        {
+            "location": "/reference/fpga/", 
+            "text": "", 
+            "title": "FPGA"
+        }, 
+        {
+            "location": "/reference/cpu/", 
+            "text": "", 
+            "title": "CPU"
         }
     ]
 }
