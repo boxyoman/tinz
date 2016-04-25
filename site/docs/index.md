@@ -6,3 +6,7 @@ saw a way of developing that didn't involve huge convoluted IDEs, but rather
 simple command line utilities and whatever text editor you wanted. 
 
 TINZ = TINZ Is Not ZYBO.
+
+![TINZ](images/tinz.jpg)
+
+*Prototype version of the TINZ*

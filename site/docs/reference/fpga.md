@@ -1,6 +1,34 @@
 #FPGA
+##Info
+The FPGA is a [iCE40HX1k](http://goo.gl/GWvuHB). We based the design of the FPGA 
+part of the TINZ on the [iCEStick](http://www.latticesemi.com/icestick). We 
+didn't map all the pin outs 1 for 1 so hardware build with the iCEStick won't 
+immediately work with the TINZ, but all the tools used for the iCEStick should 
+work with the TINZ.
+
+##Tools
+The official suite of tools for the FPGA on the TINZ are the tools provided by 
+[Project IceStorm](http://www.clifford.at/icestorm/) (**Note:** the error 
+messages produced by Yosys are horrible). There are instructions on how to build 
+the tools available on the website. 
+
+##Example Hardware
+I have example hardware available on 
+[GitHub](https://github.com/boxyoman/tinz-fpga). It includes example hardware 
+that produces an 8KHz square wave out of J10 and a 1Hz square wave out of J20, 
+and an example makefile. To build the hardware and program the board, simply:
+```bash
+git clone https://github.com/boxyoman/tinz-fpga
+cd tinz-fpga
+make
+make porg
+```
+
 
 ##Example PCF
+The example pcf file provided with the above example is enough to get the 
+example working. The following includes all the pin outs supported by the TINZ.
+
 **note:** only include those lines that you need
 ```
 set_io clk 129

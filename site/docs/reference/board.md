@@ -1,6 +1,6 @@
 #The Board
 ##Block Diagram
-Below is a general block diagram of the board, and how data flows.
+Below is a general block diagram of the board; it shows how data flows.
 
 ![Block Diagram](https://raw.githubusercontent.com/boxyoman/tinz/master/block/tinz-block-design.dot.png) 
 
@@ -27,4 +27,4 @@ Below is a list of them, and which pins connect them.
 | GPIO0              | 26       | PA1     |
 | GPIO1              | 25       | PA0     |
 
-*Note:* Names are take from the perspective of the MCU.
+**Note:** Names are taken from the perspective of the MCU.
