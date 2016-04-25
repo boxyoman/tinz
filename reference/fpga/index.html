@@ -178,6 +178,24 @@
         <ul>
           
             <li class="anchor">
+              <a title="Info" href="#info">
+                Info
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Tools" href="#tools">
+                Tools
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Example Hardware" href="#example-hardware">
+                Example Hardware
+              </a>
+            </li>
+          
+            <li class="anchor">
               <a title="Example PCF" href="#example-pcf">
                 Example PCF
               </a>
@@ -213,7 +231,31 @@
         <div class="wrapper">
           
           <h1 id="fpga">FPGA</h1>
+<h2 id="info">Info</h2>
+<p>The FPGA is a <a href="http://goo.gl/GWvuHB">iCE40HX1k</a>. We based the design of the FPGA 
+part of the TINZ on the <a href="http://www.latticesemi.com/icestick">iCEStick</a>. We 
+didn't map all the pin outs 1 for 1 so hardware build with the iCEStick won't 
+immediately work with the TINZ, but all the tools used for the iCEStick should 
+work with the TINZ.</p>
+<h2 id="tools">Tools</h2>
+<p>The official suite of tools for the FPGA on the TINZ are the tools provided by 
+<a href="http://www.clifford.at/icestorm/">Project IceStorm</a> (<strong>Note:</strong> the error 
+messages produced by Yosys are horrible). There are instructions on how to build 
+the tools available on the website. </p>
+<h2 id="example-hardware">Example Hardware</h2>
+<p>I have example hardware available on 
+<a href="https://github.com/boxyoman/tinz-fpga">GitHub</a>. It includes example hardware 
+that produces an 8KHz square wave out of J10 and a 1Hz square wave out of J20, 
+and an example makefile. To build the hardware and program the board, simply:</p>
+<pre><code class="bash">git clone https://github.com/boxyoman/tinz-fpga
+cd tinz-fpga
+make
+make porg
+</code></pre>
+
 <h2 id="example-pcf">Example PCF</h2>
+<p>The example pcf file provided with the above example is enough to get the 
+example working. The following includes all the pin outs supported by the TINZ.</p>
 <p><strong>note:</strong> only include those lines that you need</p>
 <pre><code>set_io clk 129
 

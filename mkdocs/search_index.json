@@ -2,17 +2,17 @@
     "docs": [
         {
             "location": "/", 
-            "text": "TINZ\n\n\nThis TINZ is an open source FPGA and CPU development board. It was born out of \nthe dislike of the ZYBO board's development process, and the discovery of \n\nProject IceStorm\n. With Project IceStorm we \nsaw a way of developing that didn't involve huge convoluted IDEs, but rather \nsimple command line utilities and whatever text editor you wanted. \n\n\nTINZ = TINZ Is Not ZYBO.", 
+            "text": "TINZ\n\n\nThis TINZ is an open source FPGA and CPU development board. It was born out of \nthe dislike of the ZYBO board's development process, and the discovery of \n\nProject IceStorm\n. With Project IceStorm we \nsaw a way of developing that didn't involve huge convoluted IDEs, but rather \nsimple command line utilities and whatever text editor you wanted. \n\n\nTINZ = TINZ Is Not ZYBO.\n\n\n\n\nPrototype version of the TINZ", 
             "title": "Home"
         }, 
         {
             "location": "/#tinz", 
-            "text": "This TINZ is an open source FPGA and CPU development board. It was born out of \nthe dislike of the ZYBO board's development process, and the discovery of  Project IceStorm . With Project IceStorm we \nsaw a way of developing that didn't involve huge convoluted IDEs, but rather \nsimple command line utilities and whatever text editor you wanted.   TINZ = TINZ Is Not ZYBO.", 
+            "text": "This TINZ is an open source FPGA and CPU development board. It was born out of \nthe dislike of the ZYBO board's development process, and the discovery of  Project IceStorm . With Project IceStorm we \nsaw a way of developing that didn't involve huge convoluted IDEs, but rather \nsimple command line utilities and whatever text editor you wanted.   TINZ = TINZ Is Not ZYBO.   Prototype version of the TINZ", 
             "title": "TINZ"
         }, 
         {
             "location": "/reference/board/", 
-            "text": "The Board\n\n\nBlock Diagram\n\n\nBelow is a general block diagram of the board, and how data flows.\n\n\n \n\n\nSchematic\n\n\nThe schematic of the board is available on \n\nGitHub\n. The schematic exists in the \nboard directory. Just open the tinz.sch in Eagle to view the schematic. The \nboard layout is there as well.\n\n\nInterconnections\n\n\nThe FPGA and MCU have several pins and data communication types connecting them. \nBelow is a list of them, and which pins connect them. \n\n\n\n\n\n\n\n\nCommunication Type\n\n\nFPGA Pin\n\n\nMCU Pin\n\n\n\n\n\n\n\n\n\n\nUART (URXD1)\n\n\n9\n\n\nPB2\n\n\n\n\n\n\nUART (UTXD1)\n\n\n10\n\n\nPB3\n\n\n\n\n\n\nI2C (TWD0)\n\n\n38\n\n\nPA3\n\n\n\n\n\n\nI2C (TWCK0)\n\n\n39\n\n\nPA4\n\n\n\n\n\n\nSPI (SPI_NPCS0)\n\n\n45\n\n\nPA11\n\n\n\n\n\n\nSPI (MISO)\n\n\n47\n\n\nPA12\n\n\n\n\n\n\nSPI (MOSI)\n\n\n48\n\n\nPA13\n\n\n\n\n\n\nSPI (M_SPCK)\n\n\n49\n\n\nPA14\n\n\n\n\n\n\nGPIO0\n\n\n26\n\n\nPA1\n\n\n\n\n\n\nGPIO1\n\n\n25\n\n\nPA0\n\n\n\n\n\n\n\n\nNote:\n Names are take from the perspective of the MCU.", 
+            "text": "The Board\n\n\nBlock Diagram\n\n\nBelow is a general block diagram of the board; it shows how data flows.\n\n\n \n\n\nSchematic\n\n\nThe schematic of the board is available on \n\nGitHub\n. The schematic exists in the \nboard directory. Just open the tinz.sch in Eagle to view the schematic. The \nboard layout is there as well.\n\n\nInterconnections\n\n\nThe FPGA and MCU have several pins and data communication types connecting them. \nBelow is a list of them, and which pins connect them. \n\n\n\n\n\n\n\n\nCommunication Type\n\n\nFPGA Pin\n\n\nMCU Pin\n\n\n\n\n\n\n\n\n\n\nUART (URXD1)\n\n\n9\n\n\nPB2\n\n\n\n\n\n\nUART (UTXD1)\n\n\n10\n\n\nPB3\n\n\n\n\n\n\nI2C (TWD0)\n\n\n38\n\n\nPA3\n\n\n\n\n\n\nI2C (TWCK0)\n\n\n39\n\n\nPA4\n\n\n\n\n\n\nSPI (SPI_NPCS0)\n\n\n45\n\n\nPA11\n\n\n\n\n\n\nSPI (MISO)\n\n\n47\n\n\nPA12\n\n\n\n\n\n\nSPI (MOSI)\n\n\n48\n\n\nPA13\n\n\n\n\n\n\nSPI (M_SPCK)\n\n\n49\n\n\nPA14\n\n\n\n\n\n\nGPIO0\n\n\n26\n\n\nPA1\n\n\n\n\n\n\nGPIO1\n\n\n25\n\n\nPA0\n\n\n\n\n\n\n\n\nNote:\n Names are taken from the perspective of the MCU.", 
             "title": "Board"
         }, 
         {
@@ -22,7 +22,7 @@
         }, 
         {
             "location": "/reference/board/#block-diagram", 
-            "text": "Below is a general block diagram of the board, and how data flows.", 
+            "text": "Below is a general block diagram of the board; it shows how data flows.", 
             "title": "Block Diagram"
         }, 
         {
@@ -32,12 +32,12 @@
         }, 
         {
             "location": "/reference/board/#interconnections", 
-            "text": "The FPGA and MCU have several pins and data communication types connecting them. \nBelow is a list of them, and which pins connect them.      Communication Type  FPGA Pin  MCU Pin      UART (URXD1)  9  PB2    UART (UTXD1)  10  PB3    I2C (TWD0)  38  PA3    I2C (TWCK0)  39  PA4    SPI (SPI_NPCS0)  45  PA11    SPI (MISO)  47  PA12    SPI (MOSI)  48  PA13    SPI (M_SPCK)  49  PA14    GPIO0  26  PA1    GPIO1  25  PA0     Note:  Names are take from the perspective of the MCU.", 
+            "text": "The FPGA and MCU have several pins and data communication types connecting them. \nBelow is a list of them, and which pins connect them.      Communication Type  FPGA Pin  MCU Pin      UART (URXD1)  9  PB2    UART (UTXD1)  10  PB3    I2C (TWD0)  38  PA3    I2C (TWCK0)  39  PA4    SPI (SPI_NPCS0)  45  PA11    SPI (MISO)  47  PA12    SPI (MOSI)  48  PA13    SPI (M_SPCK)  49  PA14    GPIO0  26  PA1    GPIO1  25  PA0     Note:  Names are taken from the perspective of the MCU.", 
             "title": "Interconnections"
         }, 
         {
             "location": "/reference/fpga/", 
-            "text": "FPGA\n\n\nExample PCF\n\n\nnote:\n only include those lines that you need\n\n\nset_io clk 129\n\nset_io LED1 95\nset_io LED2 96\nset_io LED3 97\nset_io LED4 98\n\nset_io J10 112\nset_io J11 113\nset_io J12 114\nset_io J13 115\n\nset_io J20 117\nset_io J21 118\nset_io J22 119\nset_io J23 120\n\nset_io J30 134\nset_io J31 135\nset_io J32 136\nset_io J33 137\n\n\n\n\nFrom FPGA to MCU\n\n\nset_io SPI_NPCS0 45\nset_io MISO 47\nset_io MOSI 48\nset_io M_SPCK 49\n\nset_io TWD 38\nset_io TWCK 39\n\nset_io TXD1 9\nset_io RXD1 10\n\nset_io GPIO0 26\nset_io GPIO1 25", 
+            "text": "FPGA\n\n\nInfo\n\n\nThe FPGA is a \niCE40HX1k\n. We based the design of the FPGA \npart of the TINZ on the \niCEStick\n. We \ndidn't map all the pin outs 1 for 1 so hardware build with the iCEStick won't \nimmediately work with the TINZ, but all the tools used for the iCEStick should \nwork with the TINZ.\n\n\nTools\n\n\nThe official suite of tools for the FPGA on the TINZ are the tools provided by \n\nProject IceStorm\n (\nNote:\n the error \nmessages produced by Yosys are horrible). There are instructions on how to build \nthe tools available on the website. \n\n\nExample Hardware\n\n\nI have example hardware available on \n\nGitHub\n. It includes example hardware \nthat produces an 8KHz square wave out of J10 and a 1Hz square wave out of J20, \nand an example makefile. To build the hardware and program the board, simply:\n\n\ngit clone https://github.com/boxyoman/tinz-fpga\ncd tinz-fpga\nmake\nmake porg\n\n\n\n\nExample PCF\n\n\nThe example pcf file provided with the above example is enough to get the \nexample working. The following includes all the pin outs supported by the TINZ.\n\n\nnote:\n only include those lines that you need\n\n\nset_io clk 129\n\nset_io LED1 95\nset_io LED2 96\nset_io LED3 97\nset_io LED4 98\n\nset_io J10 112\nset_io J11 113\nset_io J12 114\nset_io J13 115\n\nset_io J20 117\nset_io J21 118\nset_io J22 119\nset_io J23 120\n\nset_io J30 134\nset_io J31 135\nset_io J32 136\nset_io J33 137\n\n\n\n\nFrom FPGA to MCU\n\n\nset_io SPI_NPCS0 45\nset_io MISO 47\nset_io MOSI 48\nset_io M_SPCK 49\n\nset_io TWD 38\nset_io TWCK 39\n\nset_io TXD1 9\nset_io RXD1 10\n\nset_io GPIO0 26\nset_io GPIO1 25", 
             "title": "FPGA"
         }, 
         {
@@ -46,14 +46,39 @@
             "title": "FPGA"
         }, 
         {
+            "location": "/reference/fpga/#info", 
+            "text": "The FPGA is a  iCE40HX1k . We based the design of the FPGA \npart of the TINZ on the  iCEStick . We \ndidn't map all the pin outs 1 for 1 so hardware build with the iCEStick won't \nimmediately work with the TINZ, but all the tools used for the iCEStick should \nwork with the TINZ.", 
+            "title": "Info"
+        }, 
+        {
+            "location": "/reference/fpga/#tools", 
+            "text": "The official suite of tools for the FPGA on the TINZ are the tools provided by  Project IceStorm  ( Note:  the error \nmessages produced by Yosys are horrible). There are instructions on how to build \nthe tools available on the website.", 
+            "title": "Tools"
+        }, 
+        {
+            "location": "/reference/fpga/#example-hardware", 
+            "text": "I have example hardware available on  GitHub . It includes example hardware \nthat produces an 8KHz square wave out of J10 and a 1Hz square wave out of J20, \nand an example makefile. To build the hardware and program the board, simply:  git clone https://github.com/boxyoman/tinz-fpga\ncd tinz-fpga\nmake\nmake porg", 
+            "title": "Example Hardware"
+        }, 
+        {
             "location": "/reference/fpga/#example-pcf", 
-            "text": "note:  only include those lines that you need  set_io clk 129\n\nset_io LED1 95\nset_io LED2 96\nset_io LED3 97\nset_io LED4 98\n\nset_io J10 112\nset_io J11 113\nset_io J12 114\nset_io J13 115\n\nset_io J20 117\nset_io J21 118\nset_io J22 119\nset_io J23 120\n\nset_io J30 134\nset_io J31 135\nset_io J32 136\nset_io J33 137  From FPGA to MCU  set_io SPI_NPCS0 45\nset_io MISO 47\nset_io MOSI 48\nset_io M_SPCK 49\n\nset_io TWD 38\nset_io TWCK 39\n\nset_io TXD1 9\nset_io RXD1 10\n\nset_io GPIO0 26\nset_io GPIO1 25", 
+            "text": "The example pcf file provided with the above example is enough to get the \nexample working. The following includes all the pin outs supported by the TINZ.  note:  only include those lines that you need  set_io clk 129\n\nset_io LED1 95\nset_io LED2 96\nset_io LED3 97\nset_io LED4 98\n\nset_io J10 112\nset_io J11 113\nset_io J12 114\nset_io J13 115\n\nset_io J20 117\nset_io J21 118\nset_io J22 119\nset_io J23 120\n\nset_io J30 134\nset_io J31 135\nset_io J32 136\nset_io J33 137  From FPGA to MCU  set_io SPI_NPCS0 45\nset_io MISO 47\nset_io MOSI 48\nset_io M_SPCK 49\n\nset_io TWD 38\nset_io TWCK 39\n\nset_io TXD1 9\nset_io RXD1 10\n\nset_io GPIO0 26\nset_io GPIO1 25", 
             "title": "Example PCF"
         }, 
         {
             "location": "/reference/cpu/", 
+            "text": "CPU\n\n\nInfo\n\n\nThe CPU we chose to use was an Atmel \nATSAM3S4A\n. It's \na 32-bit MCU, with 256KB of flash and 48KB of SRAM. We haven't gotten this part \nof the board to work yet.", 
+            "title": "CPU"
+        }, 
+        {
+            "location": "/reference/cpu/#cpu", 
             "text": "", 
             "title": "CPU"
+        }, 
+        {
+            "location": "/reference/cpu/#info", 
+            "text": "The CPU we chose to use was an Atmel  ATSAM3S4A . It's \na 32-bit MCU, with 256KB of flash and 48KB of SRAM. We haven't gotten this part \nof the board to work yet.", 
+            "title": "Info"
         }
     ]
 }
