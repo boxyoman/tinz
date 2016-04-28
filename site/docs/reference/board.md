@@ -11,7 +11,7 @@ board directory. Just open the tinz.sch in Eagle to view the schematic. The
 board layout is there as well.
 
 ##Diagram
-![Device Diagram](images/layout.png) 
+![Device Diagram](../images/diagram.png) 
 
 | Callout | Description        |
 | ------- | ------------------ |

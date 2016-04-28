@@ -8,6 +8,7 @@ pages:
   - 'Board': reference/board.md
   - 'FPGA': reference/fpga.md
   - 'CPU': reference/cpu.md
+  - 'I/O': reference/io.md
 
 extra:
   palette:
