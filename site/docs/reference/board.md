@@ -10,6 +10,20 @@ The schematic of the board is available on
 board directory. Just open the tinz.sch in Eagle to view the schematic. The 
 board layout is there as well.
 
+##Diagram
+![Device Diagram](images/layout.png) 
+
+| Callout | Description        |
+| ------- | ------------------ |
+| 1       | iCE40HX1k          |
+| 2       | ATSAM3S4A          |
+| 3       | FTDI Chip          |
+| 4       | Flash Memory       |
+| 5       | 12MHz Clock        |
+| 6       | USB Type-C         |
+| 7       | Digital I/0        |
+| 8       | Analog/Digital I/O |
+
 ##Interconnections
 The FPGA and MCU have several pins and data communication types connecting them. 
 Below is a list of them, and which pins connect them. 
