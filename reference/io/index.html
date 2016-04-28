@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     
       
-        <title>CPU - TINZ Docs</title>
+        <title>I/O - TINZ Docs</title>
       
       
       
@@ -93,7 +93,7 @@
             
           </span>
         
-        CPU
+        I/O
       </div>
     </div>
     
@@ -176,8 +176,17 @@
       
         
   <li>
-    <a class="current" title="CPU" href="./">
+    <a class="" title="CPU" href="../cpu/">
       CPU
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="current" title="I/O" href="./">
+      I/O
     </a>
     
       
@@ -187,22 +196,19 @@
         <ul>
           
             <li class="anchor">
-              <a title="Info" href="#info">
-                Info
+              <a title="Digital I/O" href="#digital-io">
+                Digital I/O
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Analog I/O" href="#analog-io">
+                Analog I/O
               </a>
             </li>
           
         </ul>
       
-    
-  </li>
-
-      
-        
-  <li>
-    <a class="" title="I/O" href="../io/">
-      I/O
-    </a>
     
   </li>
 
@@ -221,11 +227,11 @@
       <article class="article">
         <div class="wrapper">
           
-          <h1 id="cpu">CPU</h1>
-<h2 id="info">Info</h2>
-<p>The CPU we chose to use was an Atmel <a href="http://goo.gl/XhkYT8">ATSAM3S4A</a>. It's 
-a 32-bit MCU, with 256KB of flash and 48KB of SRAM. We haven't gotten this part 
-of the board to work yet.</p>
+          <h1 id="io">I/O</h1>
+<h2 id="digital-io">Digital I/O</h2>
+<p><img alt="Digital I/O Diagram" src="../../images/digital.png" /></p>
+<p>The TINZ has 3 digital I/O connected to the FPGA, and none connected to the CPU.</p>
+<h2 id="analog-io">Analog I/O</h2>
           <aside class="copyright" role="note">
             
             Documentation built with
@@ -242,7 +248,7 @@ of the board to work yet.</p>
   <nav class="pagination" aria-label="Footer">
     <div class="previous">
       
-        <a href="../fpga/" title="FPGA">
+        <a href="../cpu/" title="CPU">
           <span class="direction">
             Previous
           </span>
@@ -252,7 +258,7 @@ of the board to work yet.</p>
             </div>
             <div class="stretch">
               <div class="title">
-                FPGA
+                CPU
               </div>
             </div>
           </div>
@@ -260,22 +266,6 @@ of the board to work yet.</p>
       
     </div>
     <div class="next">
-      
-        <a href="../io/" title="I/O">
-          <span class="direction">
-            Next
-          </span>
-          <div class="page">
-            <div class="stretch">
-              <div class="title">
-                I/O
-              </div>
-            </div>
-            <div class="button button-next" role="button" aria-label="Next">
-              <i class="icon icon-forward"></i>
-            </div>
-          </div>
-        </a>
       
     </div>
   </nav>

@@ -12,7 +12,7 @@
         }, 
         {
             "location": "/reference/board/", 
-            "text": "The Board\n\n\nBlock Diagram\n\n\nBelow is a general block diagram of the board; it shows how data flows.\n\n\n \n\n\nSchematic\n\n\nThe schematic of the board is available on \n\nGitHub\n. The schematic exists in the \nboard directory. Just open the tinz.sch in Eagle to view the schematic. The \nboard layout is there as well.\n\n\nInterconnections\n\n\nThe FPGA and MCU have several pins and data communication types connecting them. \nBelow is a list of them, and which pins connect them. \n\n\n\n\n\n\n\n\nCommunication Type\n\n\nFPGA Pin\n\n\nMCU Pin\n\n\n\n\n\n\n\n\n\n\nUART (URXD1)\n\n\n9\n\n\nPB2\n\n\n\n\n\n\nUART (UTXD1)\n\n\n10\n\n\nPB3\n\n\n\n\n\n\nI2C (TWD0)\n\n\n38\n\n\nPA3\n\n\n\n\n\n\nI2C (TWCK0)\n\n\n39\n\n\nPA4\n\n\n\n\n\n\nSPI (SPI_NPCS0)\n\n\n45\n\n\nPA11\n\n\n\n\n\n\nSPI (MISO)\n\n\n47\n\n\nPA12\n\n\n\n\n\n\nSPI (MOSI)\n\n\n48\n\n\nPA13\n\n\n\n\n\n\nSPI (M_SPCK)\n\n\n49\n\n\nPA14\n\n\n\n\n\n\nGPIO0\n\n\n26\n\n\nPA1\n\n\n\n\n\n\nGPIO1\n\n\n25\n\n\nPA0\n\n\n\n\n\n\n\n\nNote:\n Names are taken from the perspective of the MCU.", 
+            "text": "The Board\n\n\nBlock Diagram\n\n\nBelow is a general block diagram of the board; it shows how data flows.\n\n\n \n\n\nSchematic\n\n\nThe schematic of the board is available on \n\nGitHub\n. The schematic exists in the \nboard directory. Just open the tinz.sch in Eagle to view the schematic. The \nboard layout is there as well.\n\n\nDiagram\n\n\n \n\n\n\n\n\n\n\n\nCallout\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\n1\n\n\niCE40HX1k\n\n\n\n\n\n\n2\n\n\nATSAM3S4A\n\n\n\n\n\n\n3\n\n\nFTDI Chip\n\n\n\n\n\n\n4\n\n\nFlash Memory\n\n\n\n\n\n\n5\n\n\n12MHz Clock\n\n\n\n\n\n\n6\n\n\nUSB Type-C\n\n\n\n\n\n\n7\n\n\nDigital I/0\n\n\n\n\n\n\n8\n\n\nAnalog/Digital I/O\n\n\n\n\n\n\n\n\nInterconnections\n\n\nThe FPGA and MCU have several pins and data communication types connecting them. \nBelow is a list of them, and which pins connect them. \n\n\n\n\n\n\n\n\nCommunication Type\n\n\nFPGA Pin\n\n\nMCU Pin\n\n\n\n\n\n\n\n\n\n\nUART (URXD1)\n\n\n9\n\n\nPB2\n\n\n\n\n\n\nUART (UTXD1)\n\n\n10\n\n\nPB3\n\n\n\n\n\n\nI2C (TWD0)\n\n\n38\n\n\nPA3\n\n\n\n\n\n\nI2C (TWCK0)\n\n\n39\n\n\nPA4\n\n\n\n\n\n\nSPI (SPI_NPCS0)\n\n\n45\n\n\nPA11\n\n\n\n\n\n\nSPI (MISO)\n\n\n47\n\n\nPA12\n\n\n\n\n\n\nSPI (MOSI)\n\n\n48\n\n\nPA13\n\n\n\n\n\n\nSPI (M_SPCK)\n\n\n49\n\n\nPA14\n\n\n\n\n\n\nGPIO0\n\n\n26\n\n\nPA1\n\n\n\n\n\n\nGPIO1\n\n\n25\n\n\nPA0\n\n\n\n\n\n\n\n\nNote:\n Names are taken from the perspective of the MCU.", 
             "title": "Board"
         }, 
         {
@@ -29,6 +29,11 @@
             "location": "/reference/board/#schematic", 
             "text": "The schematic of the board is available on  GitHub . The schematic exists in the \nboard directory. Just open the tinz.sch in Eagle to view the schematic. The \nboard layout is there as well.", 
             "title": "Schematic"
+        }, 
+        {
+            "location": "/reference/board/#diagram", 
+            "text": "Callout  Description      1  iCE40HX1k    2  ATSAM3S4A    3  FTDI Chip    4  Flash Memory    5  12MHz Clock    6  USB Type-C    7  Digital I/0    8  Analog/Digital I/O", 
+            "title": "Diagram"
         }, 
         {
             "location": "/reference/board/#interconnections", 
@@ -79,6 +84,26 @@
             "location": "/reference/cpu/#info", 
             "text": "The CPU we chose to use was an Atmel  ATSAM3S4A . It's \na 32-bit MCU, with 256KB of flash and 48KB of SRAM. We haven't gotten this part \nof the board to work yet.", 
             "title": "Info"
+        }, 
+        {
+            "location": "/reference/io/", 
+            "text": "I/O\n\n\nDigital I/O\n\n\n\n\nThe TINZ has 3 digital I/O connected to the FPGA, and none connected to the CPU.\n\n\nAnalog I/O", 
+            "title": "I/O"
+        }, 
+        {
+            "location": "/reference/io/#io", 
+            "text": "", 
+            "title": "I/O"
+        }, 
+        {
+            "location": "/reference/io/#digital-io", 
+            "text": "The TINZ has 3 digital I/O connected to the FPGA, and none connected to the CPU.", 
+            "title": "Digital I/O"
+        }, 
+        {
+            "location": "/reference/io/#analog-io", 
+            "text": "", 
+            "title": "Analog I/O"
         }
     ]
 }
