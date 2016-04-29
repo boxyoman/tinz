@@ -87,7 +87,7 @@
         }, 
         {
             "location": "/reference/io/", 
-            "text": "I/O\n\n\nDigital I/O\n\n\n\n\nThe TINZ has 3 digital I/O connected to the FPGA, and none connected to the CPU.\n\n\nAnalog I/O", 
+            "text": "I/O\n\n\nDigital I/O\n\n\n\n\nThe TINZ has 3 digital I/O connected to the FPGA, and none connected to the CPU.\n\n\nAnalog I/O\n\n\n\n\nThe analog pins on the TINZ are connected to the CPU. They are also able able to \nbe used as digital pins. For more information about the pins you can read the \n\ndocumentation\n on the chip.", 
             "title": "I/O"
         }, 
         {
@@ -102,7 +102,7 @@
         }, 
         {
             "location": "/reference/io/#analog-io", 
-            "text": "", 
+            "text": "The analog pins on the TINZ are connected to the CPU. They are also able able to \nbe used as digital pins. For more information about the pins you can read the  documentation  on the chip.", 
             "title": "Analog I/O"
         }
     ]
