@@ -10,6 +10,7 @@
 | Mill-Max Manufacturing | 898-43-024-90-310000 | ED1391CT-ND         | Through-hole | USB Type-C Connector    | N/A   |      1 |
 | Oscillator             | SG-636PCE            | SER2822CT-ND        | 4-SOJ        | 12MHz Oscillator        | 12MHz |      1 |
 | Oscillator             | SG-636PCE            | XC1808CT-ND         | HC49/US      | 12MHz Oscillator        | 12MHz |      1 |
+| Inverter               | SN74LVC1G14DCKR      | 296-11608-1-ND      | SC70-5       | Single Inverter         | N/A   |      1 |
 |------------------------+----------------------+---------------------+--------------+-------------------------+-------+--------|
 | Resistor               | MCR03EZPJ000         | RHM0.0GTR-ND        | SMD 0603     | 0.1W Surface Mount      | 0     |     14 |
 | Resistor               | UCR03EVPFLR100       | RHM1239TR-ND        | SMD 0603     | 0.25W Surface Mount     | 0.1   |      3 |
