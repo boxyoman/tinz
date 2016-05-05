@@ -8,7 +8,7 @@ strict digraph G {
 	Flash [shape=box, label="Flash Memory"]
 	iCE  [shape=box, size="5,6",label="iCE40HX1k"]
 	MCU [shape=box,label="ATSAM3S4A"]
-	PMODs [shape=box]
+	GPIO [shape=box]
 	LEDs [shape=box]
 	Analog [shape=box]
 	USB -> USB_Controller [dir=both]
@@ -16,7 +16,7 @@ strict digraph G {
   Flash -> iCE [label="SPI"]
 	USB_Controller -> MCU [label="RS232",dir=both]
   iCE -> MCU [dir=both, label="RS232, SPI, TWI"]
-	iCE -> PMODs [dir=both]
+	iCE -> GPIO [dir=both]
 	iCE -> LEDs
 	MCU -> Analog [arrowhead=none]
 }
