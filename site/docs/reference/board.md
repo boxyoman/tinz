@@ -6,9 +6,8 @@ Below is a general block diagram of the board; it shows how data flows.
 
 ##Schematic
 The schematic of the board is available on 
-[GitHub](https://github.com/boxyoman/tinz). The schematic exists in the 
-board directory. Just open the tinz.sch in Eagle to view the schematic. The 
-board layout is there as well.
+[GitHub](https://github.com/boxyoman/tinz).  Just open board/tinz.sch in Eagle 
+to view the schematic. The board layout is there as well.
 
 ##Diagram
 ![Device Diagram](../images/diagram.png) 

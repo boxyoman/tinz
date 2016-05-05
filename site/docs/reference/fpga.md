@@ -1,6 +1,6 @@
 #FPGA
 ##Info
-The FPGA is a [iCE40HX1k](http://goo.gl/GWvuHB). We based the design of the FPGA 
+The FPGA is a [iCE40HX1k](http://goo.gl/80Y4Kj). We based the design of the FPGA 
 part of the TINZ on the [iCEStick](http://www.latticesemi.com/icestick). We 
 didn't map all the pin outs 1 for 1 so hardware build with the iCEStick won't 
 immediately work with the TINZ, but all the tools used for the iCEStick should 
